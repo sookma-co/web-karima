@@ -1,0 +1,385 @@
+{
+  "meta": {
+    "title": "Karima Courses — Change the World Through Mastering Languages",
+    "description": "Master English, German, and Indonesian with Ned Taufik, a polyglot mentor with 8+ years in Germany. Flexible online and offline classes (Yogyakarta & Solo) with a free 30-minute trial.",
+    "ogTitle": "Karima Courses — English, German & Indonesian Language Courses",
+    "ogDescription": "Learn languages with confidence and speak like a native. Private, Duo, and Small Group classes led by polyglot mentor Ned Taufik."
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "brandHome": "Karima Courses — Back to top",
+    "openMenu": "Toggle navigation menu",
+    "languageSwitcher": "Select language",
+    "heroPhotoAlt": "Ned Taufik and students learning languages together at Karima Courses",
+    "nedPortraitAlt": "Portrait of Ned Taufik, Founder and Lead Mentor of Karima Courses",
+    "floatingWaLabel": "Chat with Karima Courses via WhatsApp",
+    "testimonialsLabel": "Student testimonials carousel",
+    "ratingLabel": "5 out of 5 stars"
+  },
+  "waMessages": {
+    "general": "Hello Karima Courses! I would like to inquire about your language programs and enrollment process.",
+    "register": "Hello Karima Courses! I am interested in registering for a language course. Could you share the available schedule and details?",
+    "trial": "Hello Karima Courses! I would like to request a Free 30-Minute Trial & Consultation session.",
+    "courseEnglish": "Hello Karima Courses! I would like to ask for more details about the English Courses.",
+    "courseGerman": "Hello Karima Courses! I would like to ask for more details about the German Courses.",
+    "courseIndonesian": "Hello Karima Courses! I would like to ask for more details about the Indonesian (BIPA) Courses.",
+    "pkgPrivate": "Hello Karima Courses! I am interested in the Private Learning package (Rp 100.000 / person / session). Could you share more information?",
+    "pkgDuo": "Hello Karima Courses! I am interested in the Duo Learning package (Rp 75.000 / person / session). Could you share more information?",
+    "pkgGroup": "Hello Karima Courses! I am interested in the Small Group Learning package (Rp 50.000 / person / session). Could you share more information?",
+    "floating": "Hello Karima Courses! I have a question about your English, German, or Indonesian classes."
+  },
+  "nav": {
+    "about": "About Us",
+    "courses": "Courses",
+    "skills": "Key Skills",
+    "pricing": "Options & Pricing",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "contactAdmin": "Contact Admin"
+  },
+  "hero": {
+    "headingLine1": "Change the World",
+    "headingLine2": "Through",
+    "headingLine3": "Mastering Languages",
+    "lead": "Learn Languages with Confidence, Speak Like a Native.",
+    "description": "Master English, German, and Indonesian through a friendly, accessible, and personalized learning experience led by Ned Taufik — a polyglot with C2-level German and English proficiency, over 8 years of German language experience, and 6+ years of living in Germany and across Europe.",
+    "ctaPrimary": "Register via WhatsApp",
+    "ctaSecondary": "Try Free Trial (30 Mins)",
+    "stats": [
+      {
+        "value": "9 Languages",
+        "label": "Spoken by Founder (5 Fluent)"
+      },
+      {
+        "value": "8+ Years",
+        "label": "Lived in Germany & Europe"
+      },
+      {
+        "value": "Online & Offline",
+        "label": "Yogyakarta & Solo"
+      }
+    ],
+    "badgeTop": "8+ Years in Germany",
+    "badgeBottom": "Ned Taufik · Polyglot Mentor"
+  },
+  "about": {
+    "badge": "About Karima Courses",
+    "heading": "Learn from the Real-World Journey of a Polyglot",
+    "mentorBadge": "Founder & Lead Mentor",
+    "mentorName": "Ned Taufik",
+    "mentorQuote": "“Change the World Through Mastering Languages”",
+    "bioParagraph1": "A polyglot who speaks 9 languages (fluent in 5 different languages). Ned lived abroad in Germany for 8+ years and previously lived and spent time in The Netherlands, France, and Belgium.",
+    "bioParagraph2": "Ned studied 5 different majors including English & American Studies, Cultural Geography, Computational Linguistics, Theater- & Media Sciences, and Digital Humanities. This multidisciplinary background brings a systematic, logical, and deeply relatable approach to language learning for both beginners and advanced students.",
+    "openSpacePrefix": "Karima Courses is an ",
+    "openSpaceHighlight": "open space for anyone of different ethnicities, sexual orientations, and beliefs",
+    "openSpaceSuffix": " dedicated to helping them develop their language skills, communicate with confidence, and discover new opportunities.",
+    "portraitBadge": "Polyglot & Lead Mentor",
+    "mentorStats": [
+      {
+        "value": "9",
+        "label": "Languages Spoken"
+      },
+      {
+        "value": "8+ Yrs",
+        "label": "Lived in Germany"
+      },
+      {
+        "value": "5",
+        "label": "Academic Majors"
+      }
+    ],
+    "superprofCta": "Ned Taufik's Superprof Profile",
+    "linkedinCta": "Nediva Taufik on LinkedIn",
+    "missionTitle": "Our Mission",
+    "missionBody": "To make language learning more accessible to anyone, engaging, and meaningful while empowering learners to connect with people and opportunities beyond their own worlds through language mastery.",
+    "visionTitle": "Our Vision",
+    "visionBody": "To build a welcoming learning community where languages become the bridge to knowledge, cultural and better world understanding, and new possibilities.",
+    "approachHeading": "Our Learning Approach",
+    "approaches": [
+      {
+        "icon": "icon-grammar.svg",
+        "title": "Grammar Mastery & Tricks",
+        "body": "Master essential grammar through intuitive shortcuts and practical frameworks rather than tedious rote memorization."
+      },
+      {
+        "icon": "icon-chat.svg",
+        "title": "Practical Communication",
+        "body": "Focus on real-world spoken interactions so you can speak confidently from day one."
+      },
+      {
+        "icon": "icon-autorenew.svg",
+        "title": "Steady Improvement",
+        "body": "Learn at your own pace, surely and steady, with personalized feedback tailored to your progress."
+      },
+      {
+        "icon": "icon-verified-user.svg",
+        "title": "Supportive Environment",
+        "body": "A safe, welcoming, and encouraging space where mistakes are celebrated as part of the learning journey."
+      }
+    ]
+  },
+  "courses": {
+    "badge": "Our Courses & Services",
+    "heading": "Language Programs at Karima Courses",
+    "subtitle": "Designed to support learners in their personal, academic, preparation to go abroad, and professional journeys.",
+    "ctaLabel": "Ask for Course Details via WA",
+    "items": [
+      {
+        "id": "english",
+        "flag": "flag-gb.svg",
+        "flagAlt": "United Kingdom flag",
+        "title": "English Courses",
+        "subtitle": "English Language",
+        "popularBadge": "",
+        "featured": false,
+        "description": "Develop your English communication skills for everyday conversations, education, career development, and international opportunities.",
+        "features": [
+          "Everyday & professional dialogue",
+          "Job interview & study abroad prep",
+          "Practical grammar & native-like pronunciation"
+        ],
+        "waKey": "courseEnglish"
+      },
+      {
+        "id": "german",
+        "flag": "flag-de.svg",
+        "flagAlt": "Germany flag",
+        "title": "German Courses",
+        "subtitle": "",
+        "popularBadge": "German Language · Most Popular",
+        "featured": true,
+        "description": "Learn German step by step and build the skills to communicate in a new language while exploring educational and career opportunities. Perfect for Studium or Ausbildung preparation.",
+        "features": [
+          "From A1 fundamentals to advanced fluency",
+          "Guided by a mentor with 8+ years in Germany",
+          "Cultural orientation & visa/study prep"
+        ],
+        "waKey": "courseGerman"
+      },
+      {
+        "id": "indonesian",
+        "flag": "flag-id.svg",
+        "flagAlt": "Indonesia flag",
+        "title": "Indonesian Courses",
+        "subtitle": "Indonesian (BIPA)",
+        "popularBadge": "",
+        "featured": false,
+        "description": "Improve your Indonesian language skills for everyday communication, social interactions, and a deeper understanding of Indonesia's rich local culture.",
+        "features": [
+          "Conversational to formal Indonesian",
+          "Deep cultural and social context",
+          "Ideal for expats, researchers & travelers"
+        ],
+        "waKey": "courseIndonesian"
+      }
+    ]
+  },
+  "skills": {
+    "badge": "Skills You Can Develop",
+    "heading": "5 Essential Language Skills You Will Master",
+    "subtitle": "Unlike traditional courses, we focus on making you sound like a native and boosting your confidence in using and practicing the language in the real world.",
+    "items": [
+      {
+        "illustration": "writing.svg",
+        "title": "Writing",
+        "description": "Formulate ideas with natural grammar structure and appropriate style for academic, business, or daily notes."
+      },
+      {
+        "illustration": "speaking.svg",
+        "title": "Speaking",
+        "description": "Build spontaneous fluency, accurate expression, and fearless conversational confidence."
+      },
+      {
+        "illustration": "reading.svg",
+        "title": "Reading",
+        "description": "Comprehend contextual articles, stories, and texts with speed and rich vocabulary retention."
+      },
+      {
+        "illustration": "listening.svg",
+        "title": "Listening",
+        "description": "Train your ear to catch native accents, subtle intonations, and natural speech rhythm with clarity."
+      },
+      {
+        "illustration": "pro.svg",
+        "title": "Pronunciation",
+        "description": "Detailed phonetics coaching to eliminate awkward accents and achieve natural, native-like pronunciation."
+      }
+    ],
+    "mentorshipTitle": "Personal Mentorship Directly from Ned Taufik",
+    "mentorshipBody": "You will gain cultural insights, rapid learning frameworks, and mindset shifts that transform you from a memorizer into a true multilingual speaker."
+  },
+  "pricing": {
+    "badge": "Options & Pricing",
+    "heading": "Flexible & Accessible Learning Packages",
+    "subtitle": "Choose the class format that best matches your learning style and goals. Transparent pricing per person for each session.",
+    "unit": "per person / session",
+    "packages": [
+      {
+        "id": "private",
+        "title": "Private Learning",
+        "subtitle": "Personalized Learning · 1-on-1",
+        "price": "Rp 100.000",
+        "description": "One-on-one learning tailored to your pace, goals, and individual needs.",
+        "features": [
+          "1 student (Exclusive focus)",
+          "Personal attention",
+          "Customized learning curriculum"
+        ],
+        "cta": "Choose Private Learning",
+        "badge": "",
+        "featured": false,
+        "waKey": "pkgPrivate"
+      },
+      {
+        "id": "duo",
+        "title": "Duo Learning",
+        "subtitle": "Learn Together · Partner Class",
+        "price": "Rp 75.000",
+        "description": "Share the learning journey with a partner while enjoying interactive and engaging sessions.",
+        "features": [
+          "2 students (Partner learning)",
+          "Collaborative learning",
+          "More conversational interaction"
+        ],
+        "cta": "Choose Duo Learning",
+        "badge": "Popular",
+        "featured": true,
+        "waKey": "pkgDuo"
+      },
+      {
+        "id": "group",
+        "title": "Small Group Learning",
+        "subtitle": "Best Value · Small Group",
+        "price": "Rp 50.000",
+        "description": "Learn, connect, and grow together in a supportive small-group environment.",
+        "features": [
+          "5 students (Supportive group)",
+          "Interactive sessions",
+          "Budget-friendly (Best value)"
+        ],
+        "cta": "Choose Small Group",
+        "badge": "",
+        "featured": false,
+        "waKey": "pkgGroup"
+      }
+    ],
+    "deliveryHeading": "Format & Delivery Modes",
+    "deliveryModes": [
+      {
+        "icon": "icon-computer-dark.svg",
+        "badge": "Flexible",
+        "title": "Online Classes",
+        "subtitle": "Learn from anywhere",
+        "description": "Interactive video sessions tailored to your schedule and agreed upon together."
+      },
+      {
+        "icon": "icon-location-dark.svg",
+        "badge": "Mon - Fri",
+        "title": "Offline Yogyakarta",
+        "subtitle": "Available on Weekdays",
+        "description": "In-person sessions in Yogyakarta in a cozy and supportive learning environment."
+      },
+      {
+        "icon": "icon-location-dark.svg",
+        "badge": "Sat - Sun",
+        "title": "Offline Solo",
+        "subtitle": "Available on Weekends",
+        "description": "In-person sessions in Solo, tailored for learners who prefer weekend classes."
+      }
+    ],
+    "trialBadge": "Free Trial (30 Mins)",
+    "trialTitle": "Want to Try It First?",
+    "trialDescription": "We offer a complimentary 30-minute consultation & trial session (upon request) to assess your level and explore our learning methods.",
+    "trialCta": "Request Free Trial (30 Mins)"
+  },
+  "testimonials": {
+    "badge": "Student Testimonials",
+    "heading": "Stories from Our Language Learners",
+    "subtitle": "Real experiences from students who now communicate with greater confidence and natural fluency.",
+    "items": [
+      {
+        "courseBadge": "German Course",
+        "flag": "flag-de.svg",
+        "quote": "“I used to be intimidated by German grammar. Ned explained everything using intuitive logic and practical tricks that immediately clicked. Now I feel so much more confident speaking!”",
+        "initials": "AR",
+        "name": "Alya Rahmawati",
+        "role": "German Course Student · Study Prep in Germany"
+      },
+      {
+        "courseBadge": "German Course",
+        "flag": "flag-de.svg",
+        "quote": "“I used to be intimidated by German grammar. Ned explained everything using intuitive logic and practical tricks that immediately clicked. Now I feel so much more confident speaking!”",
+        "initials": "AR",
+        "name": "Alya Rahmawati",
+        "role": "German Course Student · Study Prep in Germany"
+      },
+      {
+        "courseBadge": "German Course",
+        "flag": "flag-de.svg",
+        "quote": "“I used to be intimidated by German grammar. Ned explained everything using intuitive logic and practical tricks that immediately clicked. Now I feel so much more confident speaking!”",
+        "initials": "AR",
+        "name": "Alya Rahmawati",
+        "role": "German Course Student · Study Prep in Germany"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "heading": "Frequently Asked Questions",
+    "subtitle": "Have more questions? Feel free to contact our team directly on WhatsApp.",
+    "items": [
+      {
+        "question": "How much does learning at Karima Courses cost?",
+        "answer": "Our pricing is transparent and charged per person per session: Private Learning (1-on-1) is Rp 100.000, Duo Learning (2 students) is Rp 75.000, and Small Group Learning (up to 5 students) is Rp 50.000. Package options such as 10-session bundles are also available — contact us on WhatsApp to find the best plan for your goals."
+      },
+      {
+        "question": "Is there really a free 30-minute trial?",
+        "answer": "Yes! We offer a complimentary 30-minute consultation and trial session upon request. During the trial, we assess your current language level, discuss your learning goals (conversation, study abroad, Ausbildung, or career), and let you experience our teaching approach firsthand before committing."
+      },
+      {
+        "question": "How is the class schedule arranged?",
+        "answer": "Class schedules are highly flexible and arranged according to your availability and time zone. Once you reach out via WhatsApp, we coordinate convenient weekly time slots that fit your study, work, or daily routine."
+      },
+      {
+        "question": "Where do in-person (offline) classes take place?",
+        "answer": "We offer in-person classes in Yogyakarta on weekdays (Monday to Friday) and in Solo on weekends (Saturday and Sunday). If you are located outside those cities or abroad, you can join our interactive Online Classes from anywhere in the world."
+      },
+      {
+        "question": "Can complete beginners join?",
+        "answer": "Absolutely! Our programs welcome learners of all levels, from complete beginners starting from zero (A1) to intermediate and advanced learners aiming for near-native fluency (up to C2). Every lesson is adapted to your pace in a friendly, supportive, and inclusive environment."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to Unlock Global Opportunities?",
+    "subtitle": "Consult your learning goals with our team or request your Free 30-Minute Trial today.",
+    "ctaPrimary": "Contact Admin",
+    "ctaSecondary": "Request Free 30-Min Trial"
+  },
+  "footer": {
+    "description": "Inclusive language learning initiative founded by Ned Taufik (Polyglot). Courses in English, German, and Indonesian online & offline (Yogyakarta & Solo).",
+    "menuHeading": "Menu",
+    "contactHeading": "Contact & Enrollment",
+    "superprofLabel": "Superprof Profile",
+    "linkedinLabel": "Nediva Taufik LinkedIn",
+    "locationsHeading": "Learning Locations",
+    "locations": [
+      {
+        "icon": "icon-computer-light.svg",
+        "label": "Online (Worldwide)"
+      },
+      {
+        "icon": "icon-location-light.svg",
+        "label": "Yogyakarta (Weekdays)"
+      },
+      {
+        "icon": "icon-location-light.svg",
+        "label": "Solo (Weekends)"
+      }
+    ],
+    "copyright": "© 2026 Karima Courses. All rights reserved."
+  },
+  "floatingWa": {
+    "label": "Chat via WhatsApp"
+  }
+}

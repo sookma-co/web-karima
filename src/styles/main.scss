@@ -1,0 +1,36 @@
+@import 'fonts';
+@import 'tokens';
+@import 'bootstrap-overrides';
+
+// Import only the Bootstrap 5.3 modules required for this landing page
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/variables-dark';
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/utilities';
+@import 'bootstrap/scss/root';
+@import 'bootstrap/scss/reboot';
+@import 'bootstrap/scss/type';
+@import 'bootstrap/scss/containers';
+@import 'bootstrap/scss/grid';
+@import 'bootstrap/scss/transitions';
+@import 'bootstrap/scss/dropdown';
+@import 'bootstrap/scss/nav';
+@import 'bootstrap/scss/navbar';
+@import 'bootstrap/scss/accordion';
+@import 'bootstrap/scss/helpers';
+@import 'bootstrap/scss/utilities/api';
+
+// Project base & modular section stylesheets
+@import 'base';
+@import 'sections/navbar';
+@import 'sections/hero';
+@import 'sections/about';
+@import 'sections/courses';
+@import 'sections/skills';
+@import 'sections/pricing';
+@import 'sections/testimonials';
+@import 'sections/faq';
+@import 'sections/cta-footer';
+@import 'sections/floating-wa';

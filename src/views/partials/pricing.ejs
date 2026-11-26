@@ -1,0 +1,100 @@
+<section class="kc-section kc-section-muted" id="pricing">
+  <div class="container-xxl kc-container">
+    <div class="kc-section-header text-center mx-auto">
+      <div class="kc-eyebrow"><%= t.pricing.badge %></div>
+      <h2 class="kc-section-title"><%= t.pricing.heading %></h2>
+      <p class="kc-section-subtitle mb-0"><%= t.pricing.subtitle %></p>
+    </div>
+
+    <!-- Pricing Packages -->
+    <div class="row g-4 mt-4 align-items-stretch">
+      <% t.pricing.packages.forEach((pkg) => { %>
+      <div class="col-12 col-lg-4">
+        <article class="kc-pricing-card h-100 <%= pkg.featured ? 'kc-pricing-card-featured' : '' %>">
+          <% if (pkg.badge) { %>
+          <span class="kc-card-float-badge"><%= pkg.badge %></span>
+          <% } %>
+
+          <div class="mb-3">
+            <h3 class="kc-pricing-title mb-1"><%= pkg.title %></h3>
+            <p class="kc-pricing-subtitle mb-0"><%= pkg.subtitle %></p>
+          </div>
+
+          <div class="kc-price-box mb-3">
+            <div class="kc-price-amount"><%= pkg.price %></div>
+            <div class="kc-price-unit"><%= t.pricing.unit %></div>
+          </div>
+
+          <p class="kc-pricing-desc mb-3"><%= pkg.description %></p>
+
+          <ul class="kc-check-list list-unstyled mb-4">
+            <% pkg.features.forEach((feat) => { %>
+            <li class="kc-check-item">
+              <img src="/assets/icons/icon-check-circle.png" alt="" width="20" height="20" class="kc-check-circle-icon">
+              <span><%= feat %></span>
+            </li>
+            <% }); %>
+          </ul>
+
+          <div class="mt-auto">
+            <a
+              class="kc-btn kc-btn-dark w-100"
+              href="<%= waLinks[pkg.waKey] %>"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/assets/icons/icon-wa-white.png" alt="" width="22" height="22" class="kc-btn-icon">
+              <span><%= pkg.cta %></span>
+            </a>
+          </div>
+        </article>
+      </div>
+      <% }); %>
+    </div>
+
+    <!-- Format & Delivery Modes -->
+    <h3 class="kc-subsection-title text-center mt-5 mb-4"><%= t.pricing.deliveryHeading %></h3>
+    <div class="row g-4">
+      <% t.pricing.deliveryModes.forEach((mode) => { %>
+      <div class="col-12 col-md-4">
+        <article class="kc-delivery-card h-100">
+          <div class="d-flex align-items-center justify-content-between mb-3">
+            <div class="kc-icon-box">
+              <img src="/assets/icons/<%= mode.icon %>" alt="" width="22" height="22">
+            </div>
+            <span class="kc-mode-pill"><%= mode.badge %></span>
+          </div>
+          <h4 class="kc-delivery-title mb-1"><%= mode.title %></h4>
+          <p class="kc-delivery-subtitle mb-3"><%= mode.subtitle %></p>
+          <p class="kc-delivery-desc mb-0"><%= mode.description %></p>
+        </article>
+      </div>
+      <% }); %>
+    </div>
+
+    <!-- Free Trial Callout -->
+    <div class="kc-trial-banner mt-5">
+      <div class="row align-items-center gy-4">
+        <div class="col-12 col-lg-8">
+          <div class="kc-trial-pill mb-2">
+            <img src="/assets/icons/icon-play-sm-dark.svg" alt="" width="18" height="18">
+            <span><%= t.pricing.trialBadge %></span>
+          </div>
+          <h4 class="kc-trial-title mb-1"><%= t.pricing.trialTitle %></h4>
+          <p class="kc-trial-desc mb-0"><%= t.pricing.trialDescription %></p>
+        </div>
+        <div class="col-12 col-lg-4 text-lg-end">
+          <a
+            class="kc-btn kc-btn-dark w-100"
+            href="<%= waLinks.trial %>"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/assets/icons/icon-gift-white.svg" alt="" width="18" height="19" class="kc-btn-icon">
+            <span><%= t.pricing.trialCta %></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

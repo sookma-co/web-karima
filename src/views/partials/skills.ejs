@@ -1,0 +1,38 @@
+<section class="kc-section kc-skills" id="skills">
+  <div class="container-xxl kc-container">
+    <div class="kc-section-header text-center mx-auto">
+      <div class="kc-eyebrow"><%= t.skills.badge %></div>
+      <h2 class="kc-section-title"><%= t.skills.heading %></h2>
+      <p class="kc-section-subtitle mb-0"><%= t.skills.subtitle %></p>
+    </div>
+
+    <div class="kc-skills-grid mt-5">
+      <% t.skills.items.forEach((skill) => { %>
+      <article class="kc-skill-card text-center">
+        <div class="kc-skill-art">
+          <img
+            src="/assets/illustrations/<%= skill.illustration %>"
+            alt=""
+            width="176"
+            height="176"
+            loading="lazy"
+            class="kc-skill-img"
+          >
+        </div>
+        <h3 class="kc-skill-title"><%= skill.title %></h3>
+        <p class="kc-skill-desc mb-0"><%= skill.description %></p>
+      </article>
+      <% }); %>
+    </div>
+
+    <div class="kc-mentorship-banner mt-4 mt-lg-5">
+      <div class="kc-mentorship-icon-wrap">
+        <img src="/assets/icons/icon-productivity.svg" alt="" width="30" height="30">
+      </div>
+      <div class="kc-mentorship-copy">
+        <h3 class="kc-mentorship-title"><%= t.skills.mentorshipTitle %></h3>
+        <p class="kc-mentorship-body mb-0"><%= t.skills.mentorshipBody %></p>
+      </div>
+    </div>
+  </div>
+</section>

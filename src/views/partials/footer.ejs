@@ -1,0 +1,124 @@
+<footer class="kc-footer">
+  <div class="kc-footer-wordmark-wrap" aria-hidden="true">
+    <p class="kc-footer-wordmark mb-0">
+      <span class="kc-footer-wordmark-bold"><%= site.brand.primary %></span>
+      <span class="kc-footer-wordmark-light"><%= site.brand.secondary %></span>
+    </p>
+  </div>
+
+  <div class="container-xxl kc-container kc-footer-inner">
+    <div class="row gy-5 gx-lg-5">
+      <!-- Brand Column -->
+      <div class="col-12 col-lg-4">
+        <a class="kc-footer-brand mb-3" href="#top" aria-label="<%= t.a11y.brandHome %>">
+          <img src="/assets/images/logo-karima.png" alt="" width="52" height="52" loading="lazy" class="kc-footer-logo">
+          <span class="kc-brand-wordmark">
+            <span class="kc-brand-primary text-white"><%= site.brand.primary %></span>
+            <span class="kc-brand-secondary kc-footer-brand-muted"><%= site.brand.secondary %></span>
+          </span>
+        </a>
+        <p class="kc-footer-desc mb-3"><%= t.footer.description %></p>
+
+        <div class="d-flex gap-2">
+          <a
+            class="kc-social-btn"
+            href="<%= waLinks.general %>"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+          >
+            <img src="/assets/icons/icon-wa-white.png" alt="" width="18" height="18">
+          </a>
+          <a
+            class="kc-social-btn"
+            href="<%= site.contact.instagramUrl %>"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <img src="/assets/icons/icon-instagram-light.svg" alt="" width="18" height="18">
+          </a>
+          <a
+            class="kc-social-btn"
+            href="<%= site.contact.superprofUrl %>"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Superprof"
+          >
+            <img src="/assets/icons/icon-school-light.svg" alt="" width="22" height="22">
+          </a>
+          <a
+            class="kc-social-btn"
+            href="<%= site.contact.linkedinUrl %>"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <img src="/assets/icons/icon-linkedin-light.svg" alt="" width="18" height="18">
+          </a>
+        </div>
+      </div>
+
+      <!-- Menu Column -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <h3 class="kc-footer-heading"><%= t.footer.menuHeading %></h3>
+        <ul class="kc-footer-list list-unstyled mb-0">
+          <li><a class="kc-footer-link" href="#about"><%= t.nav.about %></a></li>
+          <li><a class="kc-footer-link" href="#courses"><%= t.nav.courses %></a></li>
+          <li><a class="kc-footer-link" href="#skills"><%= t.nav.skills %></a></li>
+          <li><a class="kc-footer-link" href="#pricing"><%= t.nav.pricing %></a></li>
+          <li><a class="kc-footer-link" href="#testimonials"><%= t.nav.testimonials %></a></li>
+          <li><a class="kc-footer-link" href="#faq"><%= t.nav.faq %></a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Column -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <h3 class="kc-footer-heading"><%= t.footer.contactHeading %></h3>
+        <ul class="kc-footer-list list-unstyled mb-0">
+          <li>
+            <a class="kc-footer-icon-link" href="<%= waLinks.general %>" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/icons/icon-wa-white.png" alt="" width="18" height="18">
+              <span><%= site.contact.whatsappDisplay %></span>
+            </a>
+          </li>
+          <li>
+            <a class="kc-footer-icon-link" href="<%= site.contact.instagramUrl %>" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/icons/icon-instagram-muted.svg" alt="" width="18" height="18">
+              <span><%= site.contact.instagramHandle %></span>
+            </a>
+          </li>
+          <li>
+            <a class="kc-footer-icon-link" href="<%= site.contact.superprofUrl %>" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/icons/icon-school-light.svg" alt="" width="20" height="20">
+              <span><%= t.footer.superprofLabel %></span>
+            </a>
+          </li>
+          <li>
+            <a class="kc-footer-icon-link" href="<%= site.contact.linkedinUrl %>" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/icons/icon-linkedin-light.svg" alt="" width="18" height="18">
+              <span><%= t.footer.linkedinLabel %></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Locations Column -->
+      <div class="col-12 col-md-4 col-lg-3">
+        <h3 class="kc-footer-heading"><%= t.footer.locationsHeading %></h3>
+        <ul class="kc-footer-list list-unstyled mb-0">
+          <% t.footer.locations.forEach((loc) => { %>
+          <li class="kc-footer-location-item">
+            <img src="/assets/icons/<%= loc.icon %>" alt="" width="20" height="20">
+            <span><%= loc.label %></span>
+          </li>
+          <% }); %>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="kc-footer-divider">
+
+    <p class="kc-footer-copyright text-center mb-0"><%= t.footer.copyright %></p>
+  </div>
+</footer>

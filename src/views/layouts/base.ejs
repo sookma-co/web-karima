@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="<%= localeMeta.htmlLang %>">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= t.meta.title %></title>
+  <meta name="description" content="<%= t.meta.description %>">
+  <meta name="robots" content="<%= site.isProduction ? 'index, follow' : 'noindex, nofollow' %>">
+  <meta name="theme-color" content="#09090b">
+
+  <% if (site.isProduction) { %>
+  <link rel="canonical" href="<%= canonicalUrl %>">
+  <% site.locales.forEach((loc) => { %>
+  <link rel="alternate" hreflang="<%= loc.code %>" href="<%= site.siteUrl %>/<%= loc.code %>/">
+  <% }); %>
+  <link rel="alternate" hreflang="x-default" href="<%= site.siteUrl %>/<%= site.defaultLocale %>/">
+  <% } %>
+
+  <!-- Open Graph / WhatsApp Preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="<%= site.brand.fullName %>">
+  <meta property="og:locale" content="<%= localeMeta.ogLocale %>">
+  <meta property="og:title" content="<%= t.meta.ogTitle %>">
+  <meta property="og:description" content="<%= t.meta.ogDescription %>">
+  <meta property="og:url" content="<%= canonicalUrl %>">
+  <meta property="og:image" content="<%= site.siteUrl %>/assets/images/hero-karima-class.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<%= t.meta.ogTitle %>">
+  <meta name="twitter:description" content="<%= t.meta.ogDescription %>">
+  <meta name="twitter:image" content="<%= site.siteUrl %>/assets/images/hero-karima-class.png">
+
+  <link rel="icon" type="image/png" href="/assets/images/logo-karima.png">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body class="kc-body" id="top">
+  <a class="kc-skip-link" href="#main-content"><%= t.a11y.skipToContent %></a>
+
+  <%- include('../partials/navbar') %>
+
+  <main id="main-content">
+    <%- include('../pages/landing') %>
+  </main>
+
+  <%- include('../partials/footer') %>
+  <%- include('../partials/floating-wa') %>
+
+  <script src="/assets/js/bootstrap.bundle.min.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

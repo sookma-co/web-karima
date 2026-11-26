@@ -1,0 +1,70 @@
+// FAQ Accordion section
+
+.kc-faq-accordion {
+  max-width: 856px;
+}
+
+.kc-faq-item {
+  background-color: var(--kc-surface-white);
+  border: 1px solid var(--kc-border-warm) !important;
+  border-radius: var(--kc-radius-pill-card) !important;
+  overflow: hidden;
+  margin-bottom: 14px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.kc-faq-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 19px 22px;
+  background-color: var(--kc-surface-white) !important;
+  color: var(--kc-ink) !important;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  box-shadow: none !important;
+
+  &::after {
+    display: none;
+  }
+
+  &:not(.collapsed) {
+    .kc-faq-chevron {
+      transform: rotate(180deg);
+    }
+  }
+
+  &:hover {
+    background-color: #fcfbf8 !important;
+  }
+}
+
+.kc-faq-chevron {
+  flex-shrink: 0;
+  object-fit: contain;
+  transition: transform 0.22s ease;
+}
+
+.kc-faq-body {
+  padding: 0 22px 20px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--kc-text-muted);
+}
+
+@media (max-width: 575.98px) {
+  .kc-faq-button {
+    padding: 16px 18px;
+    font-size: 15px;
+  }
+
+  .kc-faq-body {
+    padding: 0 18px 18px;
+    font-size: 14.5px;
+  }
+}

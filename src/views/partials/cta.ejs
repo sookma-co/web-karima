@@ -1,0 +1,29 @@
+<section class="kc-cta-section">
+  <div class="container-xxl kc-container">
+    <div class="kc-cta-card kc-grid-bg-dark text-center">
+      <h2 class="kc-cta-title"><%= t.cta.heading %></h2>
+      <p class="kc-cta-subtitle mx-auto"><%= t.cta.subtitle %></p>
+
+      <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+        <a
+          class="kc-btn kc-btn-light kc-btn-lg"
+          href="<%= waLinks.general %>"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/assets/icons/icon-wa-dark.png" alt="" width="22" height="22" class="kc-btn-icon">
+          <span><%= t.cta.ctaPrimary %></span>
+        </a>
+        <a
+          class="kc-btn kc-btn-outline-light kc-btn-lg"
+          href="<%= waLinks.trial %>"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/assets/icons/icon-play-light.svg" alt="" width="22" height="22" class="kc-btn-icon">
+          <span><%= t.cta.ctaSecondary %></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

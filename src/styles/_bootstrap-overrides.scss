@@ -1,0 +1,32 @@
+// Bootstrap 5.3 variable overrides — loaded before Bootstrap partials
+$font-family-sans-serif: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$body-color: #09090b;
+$body-bg: #ffffff;
+$primary: #09090b;
+$secondary: #71717a;
+$border-color: #e4e4e7;
+
+// Container max-width matches Figma's 1320px container
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+// Disable Bootstrap's unused dark color-mode CSS & default data:image/svg+xml icons
+// so strict CSP (img-src 'self') needs zero data: URIs
+$enable-dark-mode: false;
+$accordion-button-icon: none;
+$accordion-button-active-icon: none;
+$accordion-button-icon-dark: none;
+$accordion-button-active-icon-dark: none;
+$navbar-light-toggler-icon-bg: none;
+$navbar-dark-toggler-icon-bg: none;
+$form-check-input-checked-bg-image: none;
+$form-check-radio-checked-bg-image: none;
+$form-select-indicator: none;
+$carousel-control-prev-icon-bg: none;
+$carousel-control-next-icon-bg: none;
+$btn-close-bg: none;

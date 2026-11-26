@@ -1,0 +1,68 @@
+<section class="kc-section kc-section-muted" id="courses">
+  <div class="container-xxl kc-container">
+    <div class="kc-section-header text-center mx-auto">
+      <div class="kc-eyebrow"><%= t.courses.badge %></div>
+      <h2 class="kc-section-title"><%= t.courses.heading %></h2>
+      <p class="kc-section-subtitle mb-0"><%= t.courses.subtitle %></p>
+    </div>
+
+    <div class="row g-4 mt-4 align-items-stretch">
+      <% t.courses.items.forEach((course) => { %>
+      <div class="col-12 col-lg-4">
+        <article class="kc-course-card h-100 <%= course.featured ? 'kc-course-card-featured' : '' %>">
+          <% if (course.popularBadge) { %>
+          <span class="kc-card-float-badge"><%= course.popularBadge %></span>
+          <% } %>
+
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <div class="kc-flag-box">
+              <img
+                src="/assets/icons/<%= course.flag %>"
+                alt="<%= course.flagAlt %>"
+                width="28"
+                height="20"
+                loading="lazy"
+              >
+            </div>
+            <div>
+              <h3 class="kc-course-title mb-0"><%= course.title %></h3>
+              <% if (course.subtitle) { %>
+              <p class="kc-course-subtitle mb-0"><%= course.subtitle %></p>
+              <% } %>
+            </div>
+          </div>
+
+          <p class="kc-course-desc"><%= course.description %></p>
+
+          <ul class="kc-check-list list-unstyled mb-4">
+            <% course.features.forEach((feat) => { %>
+            <li class="kc-check-item">
+              <img src="/assets/icons/icon-check-plain.png" alt="" width="16" height="16" class="kc-check-icon">
+              <span><%= feat %></span>
+            </li>
+            <% }); %>
+          </ul>
+
+          <div class="mt-auto">
+            <a
+              class="kc-btn w-100 <%= course.featured ? 'kc-btn-dark' : 'kc-btn-outline' %>"
+              href="<%= waLinks[course.waKey] %>"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/assets/icons/<%= course.featured ? 'icon-wa-white.png' : 'icon-wa-dark.png' %>"
+                alt=""
+                width="22"
+                height="22"
+                class="kc-btn-icon"
+              >
+              <span><%= t.courses.ctaLabel %></span>
+            </a>
+          </div>
+        </article>
+      </div>
+      <% }); %>
+    </div>
+  </div>
+</section>

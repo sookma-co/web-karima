@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="<%= site.defaultLocale %>">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= site.brand.fullName %></title>
+  <meta name="robots" content="<%= site.isProduction ? 'index, follow' : 'noindex, nofollow' %>">
+  <meta http-equiv="refresh" content="0; url=/<%= site.defaultLocale %>/">
+  <link rel="canonical" href="<%= site.siteUrl %>/<%= site.defaultLocale %>/">
+  <link rel="icon" type="image/png" href="/assets/images/logo-karima.png">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/redirect.js" defer></script>
+</head>
+<body class="kc-redirect-body">
+  <main class="kc-redirect-card">
+    <img src="/assets/images/logo-karima.png" alt="Karima Courses" width="64" height="64" class="mb-3">
+    <h1 class="h5 fw-bold mb-2">Karima Courses</h1>
+    <p class="text-secondary small mb-3">Choose your language / Sprache wählen / Pilih bahasa:</p>
+    <nav class="d-flex gap-2 justify-content-center flex-wrap" aria-label="Language selection">
+      <% site.locales.forEach((loc) => { %>
+      <a class="btn kc-btn-outline-pill btn-sm" href="/<%= loc.code %>/"><%= loc.name %> (<%= loc.label %>)</a>
+      <% }); %>
+    </nav>
+  </main>
+</body>
+</html>

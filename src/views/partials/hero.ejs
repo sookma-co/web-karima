@@ -1,0 +1,75 @@
+<section class="kc-hero kc-grid-bg-light">
+  <div class="container-xxl kc-container">
+    <div class="row align-items-center gy-5 gx-lg-5">
+      <div class="col-12 col-lg-6">
+        <h1 class="kc-hero-title" lang="en">
+          <span class="d-block"><%= t.hero.headingLine1 %></span>
+          <span class="d-block"><%= t.hero.headingLine2 %></span>
+          <span class="d-block"><%= t.hero.headingLine3 %></span>
+        </h1>
+
+        <div class="kc-hero-copy">
+          <p class="kc-hero-lead mb-1"><%= t.hero.lead %></p>
+          <p class="mb-0"><%= t.hero.description %></p>
+        </div>
+
+        <div class="kc-hero-ctas d-flex flex-wrap gap-3">
+          <a
+            class="kc-btn kc-btn-dark kc-btn-lg"
+            href="<%= waLinks.register %>"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/assets/icons/icon-wa-white.png" alt="" width="22" height="22" class="kc-btn-icon">
+            <span><%= t.hero.ctaPrimary %></span>
+          </a>
+          <a
+            class="kc-btn kc-btn-outline kc-btn-lg"
+            href="<%= waLinks.trial %>"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/assets/icons/icon-play-dark.svg" alt="" width="22" height="22" class="kc-btn-icon">
+            <span><%= t.hero.ctaSecondary %></span>
+          </a>
+        </div>
+
+        <div class="kc-hero-stats row g-3">
+          <% t.hero.stats.forEach((stat, index) => { %>
+          <div class="col-12 col-sm-4">
+            <div class="kc-hero-stat <%= index < t.hero.stats.length - 1 ? 'kc-hero-stat-divider' : '' %>">
+              <div class="kc-hero-stat-value"><%= stat.value %></div>
+              <div class="kc-hero-stat-label"><%= stat.label %></div>
+            </div>
+          </div>
+          <% }); %>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div class="kc-hero-media">
+          <div class="kc-hero-photo-frame">
+            <img
+              src="/assets/images/hero-karima-class.png"
+              alt="<%= t.a11y.heroPhotoAlt %>"
+              width="580"
+              height="434"
+              fetchpriority="high"
+              class="kc-hero-photo"
+            >
+          </div>
+
+          <div class="kc-hero-pill kc-hero-pill-top">
+            <img src="/assets/icons/icon-schedule.svg" alt="" width="20" height="20" class="kc-pill-icon">
+            <span><%= t.hero.badgeTop %></span>
+          </div>
+
+          <div class="kc-hero-pill kc-hero-pill-bottom">
+            <img src="/assets/icons/icon-translate.svg" alt="" width="20" height="20" class="kc-pill-icon">
+            <span><%= t.hero.badgeBottom %></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

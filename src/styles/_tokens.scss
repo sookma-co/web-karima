@@ -1,0 +1,62 @@
+// Design Tokens extracted from Figma (Karima Courses — Clean Version)
+
+:root {
+  // Colors
+  --kc-ink: #09090b;
+  --kc-ink-pure: #000000;
+  --kc-ink-charcoal: #212529;
+  --kc-text-body: #3f3f46;
+  --kc-text-muted: #71717a;
+  --kc-text-on-dark-muted: #9e9ea7;
+  --kc-text-footer-muted: #a1a1aa;
+
+  --kc-surface-white: #ffffff;
+  --kc-surface-muted: #fafafa;
+  --kc-surface-subtle: #f4f4f5;
+  --kc-surface-warm: #faf7f0;
+  --kc-surface-portrait: #f0ece1;
+  --kc-surface-dark-card: #18181b;
+
+  --kc-border: #e4e4e7;
+  --kc-border-input: #dee2e6;
+  --kc-border-warm: #e8e2d4;
+  --kc-border-warm-soft: #eae6dd;
+  --kc-border-dark: #27272a;
+
+  --kc-accent-gold: #d4963c;
+  --kc-accent-green: #10b981;
+
+  // Radii
+  --kc-radius-sm: 8px;
+  --kc-radius-social: 10px;
+  --kc-radius-icon: 12px;
+  --kc-radius-pill-card: 13.6px;
+  --kc-radius-md: 16px;
+  --kc-radius-lg: 20px;
+  --kc-radius-xl: 28px;
+  --kc-radius-pill: 999px;
+
+  // Shadows
+  --kc-shadow-card: 0 2px 3px rgba(9, 9, 11, 0.04), 0 1px 1px rgba(9, 9, 11, 0.02);
+  --kc-shadow-elevated: 0 12px 24px rgba(9, 9, 11, 0.08);
+  --kc-shadow-media: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
+  --kc-shadow-pill: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --kc-shadow-btn-dark: 0 4px 10px rgba(0, 0, 0, 0.15);
+  --kc-shadow-floating-wa: 0 12px 24px rgba(0, 0, 0, 0.32);
+
+  // Spacing
+  --kc-navbar-height: 74px;
+  --kc-section-py: 104px;
+}
+
+@media (max-width: 991.98px) {
+  :root {
+    --kc-section-py: 72px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  :root {
+    --kc-section-py: 56px;
+  }
+}

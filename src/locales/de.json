@@ -1,0 +1,385 @@
+{
+  "meta": {
+    "title": "Karima Courses — Change the World Through Mastering Languages",
+    "description": "Lerne Englisch, Deutsch und Indonesisch mit Ned Taufik – polyglotte Mentorin mit über 8 Jahren Erfahrung in Deutschland. Online- und Präsenzkurse (Yogyakarta & Solo) inkl. kostenloser 30-Minuten-Probestunde.",
+    "ogTitle": "Karima Courses — Englisch-, Deutsch- & Indonesischkurse",
+    "ogDescription": "Lerne Sprachen mit Selbstvertrauen und sprich wie Muttersprachler. Einzel-, Duo- und Kleingruppenkurse direkt mit Ned Taufik."
+  },
+  "a11y": {
+    "skipToContent": "Zum Hauptinhalt springen",
+    "brandHome": "Karima Courses — Nach oben",
+    "openMenu": "Navigationsmenü öffnen oder schließen",
+    "languageSwitcher": "Sprache wählen",
+    "heroPhotoAlt": "Ned Taufik und Lernende beim gemeinsamen Sprachunterricht bei Karima Courses",
+    "nedPortraitAlt": "Porträt von Ned Taufik, Gründerin und Hauptmentorin von Karima Courses",
+    "floatingWaLabel": "Mit Karima Courses über WhatsApp chatten",
+    "testimonialsLabel": "Karussell mit Erfahrungsberichten von Lernenden",
+    "ratingLabel": "5 von 5 Sternen"
+  },
+  "waMessages": {
+    "general": "Hallo Karima Courses! Ich interessiere mich für eure Sprachkurse und möchte gerne mehr über die Anmeldung erfahren.",
+    "register": "Hallo Karima Courses! Ich möchte mich gerne für einen Sprachkurs anmelden. Welche Termine und Optionen sind aktuell verfügbar?",
+    "trial": "Hallo Karima Courses! Ich möchte gerne eine kostenlose 30-minütige Beratung & Probestunde anfragen.",
+    "courseEnglish": "Hallo Karima Courses! Ich hätte gerne weitere Informationen zu den Englischkursen.",
+    "courseGerman": "Hallo Karima Courses! Ich hätte gerne weitere Informationen zu den Deutschkursen.",
+    "courseIndonesian": "Hallo Karima Courses! Ich hätte gerne weitere Informationen zu den Indonesischkursen (BIPA).",
+    "pkgPrivate": "Hallo Karima Courses! Ich interessiere mich für das Paket „Einzelunterricht“ (Rp 100.000 / Person / Sitzung). Könnt ihr mir mehr dazu sagen?",
+    "pkgDuo": "Hallo Karima Courses! Ich interessiere mich für das Paket „Duo-Unterricht“ (Rp 75.000 / Person / Sitzung). Könnt ihr mir mehr dazu sagen?",
+    "pkgGroup": "Hallo Karima Courses! Ich interessiere mich für das Paket „Kleingruppe“ (Rp 50.000 / Person / Sitzung). Könnt ihr mir mehr dazu sagen?",
+    "floating": "Hallo Karima Courses! Ich habe eine Frage zu euren Englisch-, Deutsch- oder Indonesischkursen."
+  },
+  "nav": {
+    "about": "Über uns",
+    "courses": "Kurse",
+    "skills": "Kernkompetenzen",
+    "pricing": "Optionen & Preise",
+    "testimonials": "Erfahrungen",
+    "faq": "FAQ",
+    "contactAdmin": "Kontakt per WA"
+  },
+  "hero": {
+    "headingLine1": "Change the World",
+    "headingLine2": "Through",
+    "headingLine3": "Mastering Languages",
+    "lead": "Lerne Sprachen mit Selbstvertrauen, sprich wie ein Muttersprachler.",
+    "description": "Meistere Englisch, Deutsch und Indonesisch in einer freundlichen, zugänglichen und persönlichen Lernumgebung mit Ned Taufik – einer Polyglotten mit C2-Niveau in Deutsch und Englisch, über 8 Jahren Erfahrung mit der deutschen Sprache sowie über 6 Jahren Lebens- und Studienerfahrung in Deutschland und Europa.",
+    "ctaPrimary": "Über WhatsApp anmelden",
+    "ctaSecondary": "Gratis-Probestunde (30 Min.)",
+    "stats": [
+      {
+        "value": "9 Sprachen",
+        "label": "Von der Gründerin gesprochen (5 fließend)"
+      },
+      {
+        "value": "8+ Jahre",
+        "label": "In Deutschland & Europa gelebt"
+      },
+      {
+        "value": "Online & Präsenz",
+        "label": "Yogyakarta & Solo"
+      }
+    ],
+    "badgeTop": "8+ Jahre in Deutschland",
+    "badgeBottom": "Ned Taufik · Polyglotte Mentorin"
+  },
+  "about": {
+    "badge": "Über Karima Courses",
+    "heading": "Lerne aus der echten Erfahrung einer Polyglotten",
+    "mentorBadge": "Gründerin & Hauptmentorin",
+    "mentorName": "Ned Taufik",
+    "mentorQuote": "“Change the World Through Mastering Languages”",
+    "bioParagraph1": "Eine Polyglotte, die 9 Sprachen spricht (davon 5 fließend). Ned hat über 8 Jahre in Deutschland gelebt und zudem Zeit in den Niederlanden, Frankreich und Belgien verbracht.",
+    "bioParagraph2": "Ned studierte 5 verschiedene Fachrichtungen: Anglistik & Amerikanistik, Kulturgeographie, Computerlinguistik, Theater- und Medienwissenschaft sowie Digital Humanities. Dieser interdisziplinäre Hintergrund ermöglicht eine systematische, logische und leicht verständliche Lehrmethode für Anfänger und Fortgeschrittene gleichermaßen.",
+    "openSpacePrefix": "Karima Courses ist ein ",
+    "openSpaceHighlight": "offener Raum für Menschen jeder Herkunft, sexuellen Orientierung und Weltanschauung",
+    "openSpaceSuffix": " – mit dem Ziel, Sprachkenntnisse auszubauen, selbstbewusst zu kommunizieren und neue Chancen zu entdecken.",
+    "portraitBadge": "Polyglotte & Mentorin",
+    "mentorStats": [
+      {
+        "value": "9",
+        "label": "Gesprochene Sprachen"
+      },
+      {
+        "value": "8+ J.",
+        "label": "In Deutschland gelebt"
+      },
+      {
+        "value": "5",
+        "label": "Studienfächer"
+      }
+    ],
+    "superprofCta": "Ned Taufiks Superprof-Profil",
+    "linkedinCta": "Nediva Taufik auf LinkedIn",
+    "missionTitle": "Unsere Mission",
+    "missionBody": "Sprachenlernen für alle zugänglicher, lebendiger und sinnvoller zu gestalten – und Lernende zu befähigen, sich durch Sprachbeherrschung mit Menschen und Möglichkeiten weltweit zu verbinden.",
+    "visionTitle": "Unsere Vision",
+    "visionBody": "Eine herzliche Lerngemeinschaft aufzubauen, in der Sprachen zur Brücke für Wissen, kulturelles Verständnis und neue Perspektiven werden.",
+    "approachHeading": "Unser Lernansatz",
+    "approaches": [
+      {
+        "icon": "icon-grammar.svg",
+        "title": "Grammatik & clevere Tricks",
+        "body": "Beherrsche wichtige Grammatik durch intuitive Eselsbrücken und praktische Strukturen statt trockenen Auswendiglernens."
+      },
+      {
+        "icon": "icon-chat.svg",
+        "title": "Praxisnahe Kommunikation",
+        "body": "Fokus auf echte Alltagskommunikation, damit du vom ersten Tag an sicher und frei sprichst."
+      },
+      {
+        "icon": "icon-autorenew.svg",
+        "title": "Nachhaltiger Fortschritt",
+        "body": "Lerne in deinem eigenen Tempo – Schritt für Schritt und mit individuellem Feedback zu deiner Entwicklung."
+      },
+      {
+        "icon": "icon-verified-user.svg",
+        "title": "Unterstützendes Umfeld",
+        "body": "Ein sicherer, offener und motivierender Raum, in dem Fehler als wertvoller Teil des Lernprozesses willkommen sind."
+      }
+    ]
+  },
+  "courses": {
+    "badge": "Unsere Kurse & Angebote",
+    "heading": "Sprachprogramme bei Karima Courses",
+    "subtitle": "Entwickelt, um Lernende auf ihrem persönlichen, akademischen, internationalen und beruflichen Weg gezielt zu begleiten.",
+    "ctaLabel": "Kursdetails via WA anfragen",
+    "items": [
+      {
+        "id": "english",
+        "flag": "flag-gb.svg",
+        "flagAlt": "Flagge des Vereinigten Königreichs",
+        "title": "Englischkurse",
+        "subtitle": "Englische Sprache",
+        "popularBadge": "",
+        "featured": false,
+        "description": "Stärke deine Englischkenntnisse für Alltagsgespräche, Studium, Karriereentwicklung und internationale Chancen.",
+        "features": [
+          "Alltags- & Berufskommunikation",
+          "Vorbereitung auf Bewerbungen & Auslandsstudium",
+          "Praxisnahe Grammatik & natürliche Aussprache"
+        ],
+        "waKey": "courseEnglish"
+      },
+      {
+        "id": "german",
+        "flag": "flag-de.svg",
+        "flagAlt": "Flagge Deutschlands",
+        "title": "Deutschkurse",
+        "subtitle": "",
+        "popularBadge": "Deutsche Sprache · Am beliebtesten",
+        "featured": true,
+        "description": "Lerne Deutsch Schritt für Schritt und baue sichere Sprachkompetenzen für neue Bildungs- und Karrierewege auf. Ideal zur Vorbereitung auf Studium oder Ausbildung.",
+        "features": [
+          "Von A1-Grundlagen bis zu sicherer Flüssigkeit",
+          "Begleitet von einer Mentorin mit 8+ Jahren in Deutschland",
+          "Kulturelle Orientierung & Visum-/Studienvorbereitung"
+        ],
+        "waKey": "courseGerman"
+      },
+      {
+        "id": "indonesian",
+        "flag": "flag-id.svg",
+        "flagAlt": "Flagge Indonesiens",
+        "title": "Indonesischkurse",
+        "subtitle": "Indonesisch (BIPA)",
+        "popularBadge": "",
+        "featured": false,
+        "description": "Verbessere dein Indonesisch für den Alltag, soziale Begegnungen und ein tieferes Verständnis der vielfältigen indonesischen Kultur.",
+        "features": [
+          "Von Alltags- bis zu formellem Indonesisch",
+          "Tiefer kultureller und sozialer Kontext",
+          "Ideal für Expats, Forschende & Reisende"
+        ],
+        "waKey": "courseIndonesian"
+      }
+    ]
+  },
+  "skills": {
+    "badge": "Kompetenzen, die du entwickelst",
+    "heading": "5 zentrale Sprachkompetenzen, die du meistern wirst",
+    "subtitle": "Anders als klassische Kurse konzentrieren wir uns darauf, dass du natürlich wie Muttersprachler klingst und die Sprache selbstbewusst im echten Leben anwendest.",
+    "items": [
+      {
+        "illustration": "writing.svg",
+        "title": "Schreiben",
+        "description": "Formuliere Gedanken mit natürlicher Grammatik und passendem Stil für Studium, Beruf oder Alltag."
+      },
+      {
+        "illustration": "speaking.svg",
+        "title": "Sprechen",
+        "description": "Entwickle spontane Flüssigkeit, treffenden Ausdruck und angstfreies Selbstvertrauen im Gespräch."
+      },
+      {
+        "illustration": "reading.svg",
+        "title": "Lesen",
+        "description": "Verstehe Artikel, Geschichten und Fachtexte zügig im Kontext und erweitere nachhaltig deinen Wortschatz."
+      },
+      {
+        "illustration": "listening.svg",
+        "title": "Hören",
+        "description": "Schule dein Gehör, um authentische Akzente, feine Betonungen und natürlichen Sprachrhythmus klar zu verstehen."
+      },
+      {
+        "illustration": "pro.svg",
+        "title": "Aussprache",
+        "description": "Gezieltes Phonetik-Coaching für eine klare, natürliche und muttersprachlich klingende Aussprache."
+      }
+    ],
+    "mentorshipTitle": "Persönliches Mentoring direkt durch Ned Taufik",
+    "mentorshipBody": "Du erhältst kulturelle Einblicke, erprobte Lernmethoden und Denkweisen, die dich vom bloßen Auswendiglernen zu einer wirklich mehrsprachigen Persönlichkeit führen."
+  },
+  "pricing": {
+    "badge": "Optionen & Preise",
+    "heading": "Flexible & faire Lernpakete",
+    "subtitle": "Wähle das Kursformat, das am besten zu deinem Lernstil und deinen Zielen passt. Transparente Preise pro Person und Sitzung.",
+    "unit": "pro Person / Sitzung",
+    "packages": [
+      {
+        "id": "private",
+        "title": "Einzelunterricht",
+        "subtitle": "Individuelles Lernen · 1-zu-1",
+        "price": "Rp 100.000",
+        "description": "Persönlicher Einzelunterricht – exakt abgestimmt auf dein Tempo, deine Ziele und deine Bedürfnisse.",
+        "features": [
+          "1 Lernende:r (Voller Fokus)",
+          "Persönliche Betreuung",
+          "Maßgeschneiderter Lehrplan"
+        ],
+        "cta": "Einzelunterricht wählen",
+        "badge": "",
+        "featured": false,
+        "waKey": "pkgPrivate"
+      },
+      {
+        "id": "duo",
+        "title": "Duo-Unterricht",
+        "subtitle": "Gemeinsam lernen · Partnerkurs",
+        "price": "Rp 75.000",
+        "description": "Teile deine Lernreise mit einer Lernpartnerin oder einem Lernpartner in lebendigen, interaktiven Sitzungen.",
+        "features": [
+          "2 Lernende (Partnerlernen)",
+          "Kollaboratives Lernen",
+          "Mehr aktive Gesprächspraxis"
+        ],
+        "cta": "Duo-Unterricht wählen",
+        "badge": "Beliebt",
+        "featured": true,
+        "waKey": "pkgDuo"
+      },
+      {
+        "id": "group",
+        "title": "Kleingruppenkurs",
+        "subtitle": "Bestes Preis-Leistungs-Verhältnis",
+        "price": "Rp 50.000",
+        "description": "Gemeinsam lernen, austauschen und wachsen in einer motivierenden Kleingruppe.",
+        "features": [
+          "5 Lernende (Motivierende Gruppe)",
+          "Interaktive Unterrichtseinheiten",
+          "Budgetfreundlich (Bester Wert)"
+        ],
+        "cta": "Kleingruppe wählen",
+        "badge": "",
+        "featured": false,
+        "waKey": "pkgGroup"
+      }
+    ],
+    "deliveryHeading": "Unterrichtsformate & Standorte",
+    "deliveryModes": [
+      {
+        "icon": "icon-computer-dark.svg",
+        "badge": "Flexibel",
+        "title": "Online-Kurse",
+        "subtitle": "Von überall lernen",
+        "description": "Interaktive Video-Sitzungen mit flexibel abgestimmten Terminen, die zu deinem Alltag passen."
+      },
+      {
+        "icon": "icon-location-dark.svg",
+        "badge": "Mo – Fr",
+        "title": "Präsenz Yogyakarta",
+        "subtitle": "Werktags verfügbar",
+        "description": "Persönlicher Präsenzunterricht in Yogyakarta in einer angenehmen und unterstützenden Lernatmosphäre."
+      },
+      {
+        "icon": "icon-location-dark.svg",
+        "badge": "Sa – So",
+        "title": "Präsenz Solo",
+        "subtitle": "Am Wochenende verfügbar",
+        "description": "Persönlicher Präsenzunterricht in Solo – ideal für alle, die am Wochenende lernen möchten."
+      }
+    ],
+    "trialBadge": "Gratis-Probestunde (30 Min.)",
+    "trialTitle": "Möchtest du es erst ausprobieren?",
+    "trialDescription": "Auf Anfrage bieten wir eine kostenlose 30-minütige Beratung & Probestunde an, um dein Niveau einzuschätzen und unsere Lernmethode kennenzulernen.",
+    "trialCta": "Gratis-Probestunde anfragen (30 Min.)"
+  },
+  "testimonials": {
+    "badge": "Erfahrungsberichte",
+    "heading": "Stimmen unserer Sprachlernenden",
+    "subtitle": "Echte Erfahrungen von Lernenden, die heute deutlich selbstbewusster und flüssiger kommunizieren.",
+    "items": [
+      {
+        "courseBadge": "Deutschkurs",
+        "flag": "flag-de.svg",
+        "quote": "„Früher hatte ich großen Respekt vor der deutschen Grammatik. Ned hat alles mit intuitiver Logik und praktischen Tricks erklärt, die sofort Sinn ergeben haben. Jetzt spreche ich viel selbstbewusster!“",
+        "initials": "AR",
+        "name": "Alya Rahmawati",
+        "role": "Deutschkurs-Teilnehmerin · Studienvorbereitung in Deutschland"
+      },
+      {
+        "courseBadge": "Deutschkurs",
+        "flag": "flag-de.svg",
+        "quote": "„Früher hatte ich großen Respekt vor der deutschen Grammatik. Ned hat alles mit intuitiver Logik und praktischen Tricks erklärt, die sofort Sinn ergeben haben. Jetzt spreche ich viel selbstbewusster!“",
+        "initials": "AR",
+        "name": "Alya Rahmawati",
+        "role": "Deutschkurs-Teilnehmerin · Studienvorbereitung in Deutschland"
+      },
+      {
+        "courseBadge": "Deutschkurs",
+        "flag": "flag-de.svg",
+        "quote": "„Früher hatte ich großen Respekt vor der deutschen Grammatik. Ned hat alles mit intuitiver Logik und praktischen Tricks erklärt, die sofort Sinn ergeben haben. Jetzt spreche ich viel selbstbewusster!“",
+        "initials": "AR",
+        "name": "Alya Rahmawati",
+        "role": "Deutschkurs-Teilnehmerin · Studienvorbereitung in Deutschland"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "heading": "Häufig gestellte Fragen",
+    "subtitle": "Noch Fragen? Schreib unserem Team jederzeit direkt über WhatsApp.",
+    "items": [
+      {
+        "question": "Wie viel kostet ein Sprachkurs bei Karima Courses?",
+        "answer": "Unsere Preise sind transparent pro Person und Sitzung gestaffelt: Einzelunterricht (1-zu-1) kostet Rp 100.000, Duo-Unterricht (2 Personen) Rp 75.000 und Kleingruppenunterricht (bis zu 5 Personen) Rp 50.000. Auf Wunsch sind auch 10er-Pakete verfügbar – schreib uns einfach auf WhatsApp für die passende Option."
+      },
+      {
+        "question": "Gibt es wirklich eine kostenlose 30-minütige Probestunde?",
+        "answer": "Ja! Auf Anfrage erhältst du eine kostenlose 30-minütige Beratung und Probestunde. Dabei bestimmen wir gemeinsam dein aktuelles Sprachniveau, besprechen deine Ziele (Alltag, Studium, Ausbildung oder Beruf) und du lernst unsere Lehrmethode direkt kennen."
+      },
+      {
+        "question": "Wie werden die Unterrichtszeiten festgelegt?",
+        "answer": "Die Termine sind sehr flexibel und richten sich nach deiner Verfügbarkeit und Zeitzone. Nach deiner Anfrage über WhatsApp vereinbaren wir gemeinsam passende wöchentliche Zeitfenster, die gut zu deinem Studium, Beruf oder Alltag passen."
+      },
+      {
+        "question": "Wo findet der Präsenzunterricht statt?",
+        "answer": "Präsenzkurse bieten wir werktags (Montag bis Freitag) in Yogyakarta und am Wochenende (Samstag und Sonntag) in Solo an. Wenn du in einer anderen Stadt oder im Ausland lebst, kannst du weltweit an unseren interaktiven Online-Kursen teilnehmen."
+      },
+      {
+        "question": "Können auch absolute Anfänger teilnehmen?",
+        "answer": "Auf jeden Fall! Unsere Kurse stehen allen Sprachniveaus offen – von kompletten Einsteiger:innen ohne Vorkenntnisse (A1) bis zu Fortgeschrittenen mit Ziel C2. Jede Einheit wird individuell an dein Lerntempo angepasst."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit für internationale Möglichkeiten?",
+    "subtitle": "Besprich deine Lernziele mit unserem Team oder sichere dir noch heute deine kostenlose 30-Minuten-Probestunde.",
+    "ctaPrimary": "Kontakt per WA",
+    "ctaSecondary": "Gratis-Probestunde anfragen"
+  },
+  "footer": {
+    "description": "Inklusive Sprachlerninitiative, gegründet von Ned Taufik (Polyglotte). Englisch-, Deutsch- und Indonesischkurse online & in Präsenz (Yogyakarta & Solo).",
+    "menuHeading": "Menü",
+    "contactHeading": "Kontakt & Anmeldung",
+    "superprofLabel": "Superprof-Profil",
+    "linkedinLabel": "Nediva Taufik auf LinkedIn",
+    "locationsHeading": "Lernstandorte",
+    "locations": [
+      {
+        "icon": "icon-computer-light.svg",
+        "label": "Online (Weltweit)"
+      },
+      {
+        "icon": "icon-location-light.svg",
+        "label": "Yogyakarta (Werktags)"
+      },
+      {
+        "icon": "icon-location-light.svg",
+        "label": "Solo (Wochenende)"
+      }
+    ],
+    "copyright": "© 2026 Karima Courses. Alle Rechte vorbehalten."
+  },
+  "floatingWa": {
+    "label": "Per WhatsApp chatten"
+  }
+}

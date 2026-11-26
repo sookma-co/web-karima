@@ -1,0 +1,154 @@
+// Hero section
+
+.kc-hero {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border-bottom: 1px solid var(--kc-border);
+}
+
+.kc-hero-title {
+  font-size: clamp(1.95rem, 4.1vw, 3.6rem);
+  font-weight: 800;
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+  color: var(--kc-ink);
+  margin-bottom: 16px;
+}
+
+.kc-hero-copy {
+  max-width: 540px;
+  font-size: clamp(1rem, 1.35vw, 1.18rem);
+  line-height: 1.65;
+  color: var(--kc-text-muted);
+  margin-bottom: 24px;
+}
+
+.kc-hero-lead {
+  font-weight: 600;
+  color: #52525b;
+}
+
+.kc-hero-ctas {
+  margin-bottom: 40px;
+}
+
+.kc-hero-stats {
+  border-top: 1px solid var(--kc-border-warm);
+  padding-top: 24px;
+  max-width: 640px;
+}
+
+.kc-hero-stat {
+  padding-right: 12px;
+}
+
+@media (min-width: 576px) {
+  .kc-hero-stat-divider {
+    border-right: 1px solid var(--kc-border-warm);
+  }
+}
+
+.kc-hero-stat-value {
+  font-size: 21.9px;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+  color: var(--kc-ink);
+  margin-bottom: 4px;
+}
+
+.kc-hero-stat-label {
+  font-size: 12.5px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--kc-text-muted);
+}
+
+// Right column hero photo + floating glass pills
+.kc-hero-media {
+  position: relative;
+  max-width: 580px;
+  margin-inline: auto;
+}
+
+.kc-hero-photo-frame {
+  border-radius: var(--kc-radius-xl);
+  border: 1px solid var(--kc-border);
+  box-shadow: var(--kc-shadow-media);
+  overflow: hidden;
+  background-color: var(--kc-surface-subtle);
+  aspect-ratio: 580 / 434;
+}
+
+.kc-hero-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.kc-hero-pill {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--kc-border);
+  border-radius: var(--kc-radius-pill-card);
+  box-shadow: var(--kc-shadow-pill);
+  font-size: 13.6px;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--kc-ink);
+  white-space: nowrap;
+}
+
+.kc-pill-icon {
+  flex-shrink: 0;
+}
+
+.kc-hero-pill-top {
+  top: 28px;
+  right: 16px;
+}
+
+.kc-hero-pill-bottom {
+  bottom: 28px;
+  left: 14px;
+}
+
+@media (max-width: 991.98px) {
+  .kc-hero {
+    padding-top: 44px;
+    padding-bottom: 56px;
+  }
+
+  .kc-hero-stats {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .kc-hero-ctas .kc-btn {
+    width: 100%;
+  }
+
+  .kc-hero-pill {
+    padding: 8px 12px;
+    font-size: 12px;
+    gap: 6px;
+  }
+
+  .kc-hero-pill-top {
+    top: 12px;
+    right: 10px;
+  }
+
+  .kc-hero-pill-bottom {
+    bottom: 12px;
+    left: 10px;
+  }
+}

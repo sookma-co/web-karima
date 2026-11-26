@@ -1,0 +1,385 @@
+{
+  "meta": {
+    "title": "Karima Courses — Change the World Through Mastering Languages",
+    "description": "Kuasai Bahasa Inggris, Jerman, dan Indonesia bersama Ned Taufik, mentor poliglot berpengalaman 8+ tahun di Jerman. Tersedia kelas online & offline (Yogyakarta & Solo) serta uji coba gratis 30 menit.",
+    "ogTitle": "Karima Courses — Kursus Bahasa Inggris, Jerman & Indonesia",
+    "ogDescription": "Belajar bahasa dengan percaya diri dan berbicara layaknya penutur asli. Paket Private, Duo, dan Small Group langsung bersama Ned Taufik."
+  },
+  "a11y": {
+    "skipToContent": "Lewati ke konten utama",
+    "brandHome": "Karima Courses — Kembali ke atas",
+    "openMenu": "Buka atau tutup menu navigasi",
+    "languageSwitcher": "Pilih bahasa",
+    "heroPhotoAlt": "Ned Taufik dan siswa belajar bahasa bersama di Karima Courses",
+    "nedPortraitAlt": "Foto profil Ned Taufik, Pendiri dan Mentor Utama Karima Courses",
+    "floatingWaLabel": "Chat dengan Karima Courses melalui WhatsApp",
+    "testimonialsLabel": "Karusel testimoni siswa",
+    "ratingLabel": "5 dari 5 bintang"
+  },
+  "waMessages": {
+    "general": "Halo Karima Courses! Saya ingin bertanya mengenai program kursus bahasa dan cara pendaftarannya.",
+    "register": "Halo Karima Courses! Saya tertarik mendaftar kursus bahasa. Boleh minta informasi jadwal dan detail pendaftarannya?",
+    "trial": "Halo Karima Courses! Saya ingin mengajukan sesi Konsultasi & Free Trial (30 Menit).",
+    "courseEnglish": "Halo Karima Courses! Saya ingin menanyakan detail lebih lanjut mengenai Kursus Bahasa Inggris.",
+    "courseGerman": "Halo Karima Courses! Saya ingin menanyakan detail lebih lanjut mengenai Kursus Bahasa Jerman.",
+    "courseIndonesian": "Halo Karima Courses! Saya ingin menanyakan detail lebih lanjut mengenai Kursus Bahasa Indonesia (BIPA).",
+    "pkgPrivate": "Halo Karima Courses! Saya tertarik dengan paket Private Learning (Rp 100.000 / orang / sesi). Boleh info detailnya?",
+    "pkgDuo": "Halo Karima Courses! Saya tertarik dengan paket Duo Learning (Rp 75.000 / orang / sesi). Boleh info detailnya?",
+    "pkgGroup": "Halo Karima Courses! Saya tertarik dengan paket Small Group Learning (Rp 50.000 / orang / sesi). Boleh info detailnya?",
+    "floating": "Halo Karima Courses! Saya ingin berkonsultasi mengenai kelas bahasa Inggris, Jerman, atau Indonesia."
+  },
+  "nav": {
+    "about": "Tentang Kami",
+    "courses": "Program Kursus",
+    "skills": "Fokus Keahlian",
+    "pricing": "Pilihan & Biaya",
+    "testimonials": "Testimoni",
+    "faq": "FAQ",
+    "contactAdmin": "Hubungi Admin"
+  },
+  "hero": {
+    "headingLine1": "Change the World",
+    "headingLine2": "Through",
+    "headingLine3": "Mastering Languages",
+    "lead": "Belajar Bahasa dengan Percaya Diri, Berbicara Layaknya Penutur Asli.",
+    "description": "Kuasai Bahasa Inggris, Jerman, dan Indonesia melalui pengalaman belajar yang ramah, mudah diakses, dan personal bersama Ned Taufik — seorang poliglot dengan kemampuan bahasa Jerman dan Inggris setara C2, berpengalaman lebih dari 8 tahun dalam bahasa Jerman, serta 6+ tahun tinggal di Jerman dan Eropa.",
+    "ctaPrimary": "Daftar via WhatsApp",
+    "ctaSecondary": "Coba Free Trial (30 Menit)",
+    "stats": [
+      {
+        "value": "9 Bahasa",
+        "label": "Dikuasai Pendiri (5 Fasih)"
+      },
+      {
+        "value": "8+ Tahun",
+        "label": "Tinggal di Jerman & Eropa"
+      },
+      {
+        "value": "Online & Offline",
+        "label": "Yogyakarta & Solo"
+      }
+    ],
+    "badgeTop": "8+ Tahun di Jerman",
+    "badgeBottom": "Ned Taufik · Mentor Poliglot"
+  },
+  "about": {
+    "badge": "Tentang Karima Courses",
+    "heading": "Belajar dari Perjalanan Nyata Seorang Poliglot",
+    "mentorBadge": "Pendiri & Mentor Utama",
+    "mentorName": "Ned Taufik",
+    "mentorQuote": "“Change the World Through Mastering Languages”",
+    "bioParagraph1": "Seorang poliglot yang menguasai 9 bahasa (fasih dalam 5 bahasa berbeda). Ned tinggal di Jerman selama lebih dari 8 tahun serta pernah tinggal dan menghabiskan waktu di Belanda, Prancis, dan Belgia.",
+    "bioParagraph2": "Ned menempuh studi di 5 bidang keilmuan berbeda, yaitu English & American Studies, Cultural Geography, Computational Linguistics, Theater- & Media Sciences, serta Digital Humanities. Latar belakang multidisiplin ini menghadirkan pendekatan belajar bahasa yang sistematis, logis, dan mudah dipahami baik bagi pemula maupun tingkat lanjut.",
+    "openSpacePrefix": "Karima Courses adalah ",
+    "openSpaceHighlight": "ruang terbuka bagi siapa saja dari berbagai etnis, orientasi seksual, dan keyakinan",
+    "openSpaceSuffix": " yang berdedikasi membantu mengembangkan kemampuan bahasa, berkomunikasi dengan percaya diri, dan membuka peluang baru.",
+    "portraitBadge": "Poliglot & Mentor Utama",
+    "mentorStats": [
+      {
+        "value": "9",
+        "label": "Bahasa Dikuasai"
+      },
+      {
+        "value": "8+ Thn",
+        "label": "Tinggal di Jerman"
+      },
+      {
+        "value": "5",
+        "label": "Bidang Studi"
+      }
+    ],
+    "superprofCta": "Profil Superprof Ned Taufik",
+    "linkedinCta": "Nediva Taufik di LinkedIn",
+    "missionTitle": "Misi Kami",
+    "missionBody": "Menjadikan pembelajaran bahasa lebih mudah diakses oleh siapa saja, menyenangkan, dan bermakna, sekaligus memberdayakan siswa untuk terhubung dengan orang-orang dan peluang di luar dunia mereka melalui penguasaan bahasa.",
+    "visionTitle": "Visi Kami",
+    "visionBody": "Membangun komunitas belajar yang hangat di mana bahasa menjadi jembatan menuju pengetahuan, pemahaman budaya serta dunia yang lebih baik, dan berbagai peluang baru.",
+    "approachHeading": "Pendekatan Belajar Kami",
+    "approaches": [
+      {
+        "icon": "icon-grammar.svg",
+        "title": "Penguasaan Tata Bahasa & Trik",
+        "body": "Kuasai tata bahasa penting melalui trik intuitif dan kerangka praktis tanpa hafalan membosankan."
+      },
+      {
+        "icon": "icon-chat.svg",
+        "title": "Komunikasi Praktis",
+        "body": "Fokus pada interaksi percakapan nyata agar kamu bisa berbicara percaya diri sejak hari pertama."
+      },
+      {
+        "icon": "icon-autorenew.svg",
+        "title": "Kemajuan Konsisten",
+        "body": "Belajar sesuai ritmemu secara bertahap dan terukur dengan umpan balik personal di setiap sesi."
+      },
+      {
+        "icon": "icon-verified-user.svg",
+        "title": "Lingkungan Suportif",
+        "body": "Ruang belajar yang aman, ramah, dan suportif di mana kesalahan adalah bagian alami dari proses berkembang."
+      }
+    ]
+  },
+  "courses": {
+    "badge": "Program Kursus & Layanan",
+    "heading": "Program Bahasa di Karima Courses",
+    "subtitle": "Dirancang untuk mendukung perjalanan belajar secara personal, akademik, persiapan studi ke luar negeri, hingga pengembangan karier.",
+    "ctaLabel": "Tanya Detail Kursus via WA",
+    "items": [
+      {
+        "id": "english",
+        "flag": "flag-gb.svg",
+        "flagAlt": "Bendera Britania Raya",
+        "title": "Kursus Bahasa Inggris",
+        "subtitle": "Bahasa Inggris",
+        "popularBadge": "",
+        "featured": false,
+        "description": "Kembangkan kemampuan komunikasi bahasa Inggris untuk percakapan sehari-hari, pendidikan, pengembangan karier, dan peluang internasional.",
+        "features": [
+          "Percakapan sehari-hari & profesional",
+          "Persiapan wawancara kerja & studi luar negeri",
+          "Tata bahasa praktis & pelafalan natural"
+        ],
+        "waKey": "courseEnglish"
+      },
+      {
+        "id": "german",
+        "flag": "flag-de.svg",
+        "flagAlt": "Bendera Jerman",
+        "title": "Kursus Bahasa Jerman",
+        "subtitle": "",
+        "popularBadge": "Bahasa Jerman · Paling Populer",
+        "featured": true,
+        "description": "Belajar bahasa Jerman langkah demi langkah dan bangun keterampilan komunikasi untuk membuka peluang pendidikan serta karier. Ideal untuk persiapan Studium maupun Ausbildung.",
+        "features": [
+          "Dari dasar A1 hingga fasih tingkat lanjut",
+          "Dibimbing mentor dengan pengalaman 8+ tahun di Jerman",
+          "Orientasi budaya & persiapan visa/studi"
+        ],
+        "waKey": "courseGerman"
+      },
+      {
+        "id": "indonesian",
+        "flag": "flag-id.svg",
+        "flagAlt": "Bendera Indonesia",
+        "title": "Kursus Bahasa Indonesia",
+        "subtitle": "Bahasa Indonesia (BIPA)",
+        "popularBadge": "",
+        "featured": false,
+        "description": "Tingkatkan kemampuan bahasa Indonesia untuk komunikasi sehari-hari, interaksi sosial, dan pemahaman lebih mendalam tentang budaya lokal Indonesia.",
+        "features": [
+          "Bahasa Indonesia percakapan hingga formal",
+          "Pemahaman konteks budaya dan sosial mendalam",
+          "Ideal bagi ekspatriat, peneliti & wisatawan"
+        ],
+        "waKey": "courseIndonesian"
+      }
+    ]
+  },
+  "skills": {
+    "badge": "Keahlian yang Dikembangkan",
+    "heading": "5 Keahlian Utama Bahasa yang Akan Kamu Kuasai",
+    "subtitle": "Berbeda dari kursus biasa, Karima Courses berfokus membuatmu terdengar layaknya penutur asli dan meningkatkan kepercayaan dirimu dalam mempraktikkan bahasa di dunia nyata.",
+    "items": [
+      {
+        "illustration": "writing.svg",
+        "title": "Writing",
+        "description": "Menulis dengan struktur tata bahasa yang tepat, natural, dan gaya yang sesuai untuk akademik, bisnis, maupun catatan harian."
+      },
+      {
+        "illustration": "speaking.svg",
+        "title": "Speaking",
+        "description": "Melatih kelancaran berbicara tanpa ragu, artikulatif, dan penuh percaya diri dalam berbagai situasi percakapan."
+      },
+      {
+        "illustration": "reading.svg",
+        "title": "Reading",
+        "description": "Memahami teks, artikel, dan bacaan kontekstual dengan cepat disertai penguasaan kosakata yang kuat."
+      },
+      {
+        "illustration": "listening.svg",
+        "title": "Listening",
+        "description": "Menajamkan pendengaran untuk menangkap aksen penutur asli, intonasi halus, dan ritme bicara secara jernih."
+      },
+      {
+        "illustration": "pro.svg",
+        "title": "Pronunciation",
+        "description": "Bimbingan pelafalan mendalam agar aksen dan pengucapan terdengar semakin natural layaknya penutur asli."
+      }
+    ],
+    "mentorshipTitle": "Pendampingan Personal Langsung dari Ned Taufik",
+    "mentorshipBody": "Kamu tidak hanya belajar kaidah bahasa, tetapi juga mendapatkan wawasan budaya, metode belajar cepat, dan pola pikir yang mengubahmu dari sekadar penghafal menjadi penutur multibahasa sejati."
+  },
+  "pricing": {
+    "badge": "Pilihan Belajar & Biaya",
+    "heading": "Paket Belajar Fleksibel & Terjangkau",
+    "subtitle": "Pilih format kelas yang paling sesuai dengan gaya belajar dan tujuanmu. Harga transparan per orang untuk setiap sesi.",
+    "unit": "per orang / sesi",
+    "packages": [
+      {
+        "id": "private",
+        "title": "Private Learning",
+        "subtitle": "Belajar Personal · 1-on-1",
+        "price": "Rp 100.000",
+        "description": "Pembelajaran satu lawan satu yang disesuaikan penuh dengan kecepatan, target, dan kebutuhan belajarmu.",
+        "features": [
+          "1 siswa (Fokus eksklusif)",
+          "Perhatian personal penuh",
+          "Kurikulum belajar disesuaikan"
+        ],
+        "cta": "Pilih Private Learning",
+        "badge": "",
+        "featured": false,
+        "waKey": "pkgPrivate"
+      },
+      {
+        "id": "duo",
+        "title": "Duo Learning",
+        "subtitle": "Belajar Berdua · Kelas Partner",
+        "price": "Rp 75.000",
+        "description": "Jalani pengalaman belajar bersama teman atau pasangan dalam sesi yang interaktif dan menyenangkan.",
+        "features": [
+          "2 siswa (Belajar bersama partner)",
+          "Pembelajaran kolaboratif",
+          "Lebih banyak interaksi percakapan"
+        ],
+        "cta": "Pilih Duo Learning",
+        "badge": "Populer",
+        "featured": true,
+        "waKey": "pkgDuo"
+      },
+      {
+        "id": "group",
+        "title": "Small Group Learning",
+        "subtitle": "Paling Hemat · Grup Kecil",
+        "price": "Rp 50.000",
+        "description": "Belajar, berdiskusi, dan berkembang bersama dalam lingkungan kelompok kecil yang suportif.",
+        "features": [
+          "5 siswa (Kelompok suportif)",
+          "Sesi kelas interaktif",
+          "Ramah kantong (Nilai terbaik)"
+        ],
+        "cta": "Pilih Small Group",
+        "badge": "",
+        "featured": false,
+        "waKey": "pkgGroup"
+      }
+    ],
+    "deliveryHeading": "Format & Mode Pembelajaran",
+    "deliveryModes": [
+      {
+        "icon": "icon-computer-dark.svg",
+        "badge": "Fleksibel",
+        "title": "Kelas Online",
+        "subtitle": "Belajar dari mana saja",
+        "description": "Sesi interaktif via video call dengan jadwal fleksibel yang disepakati bersama."
+      },
+      {
+        "icon": "icon-location-dark.svg",
+        "badge": "Senin - Jumat",
+        "title": "Kelas Offline Yogyakarta",
+        "subtitle": "Tersedia di Hari Kerja (Weekdays)",
+        "description": "Tatap muka langsung dengan mentor di Yogyakarta dalam suasana belajar yang nyaman."
+      },
+      {
+        "icon": "icon-location-dark.svg",
+        "badge": "Sabtu - Minggu",
+        "title": "Kelas Offline Solo",
+        "subtitle": "Tersedia di Akhir Pekan (Weekends)",
+        "description": "Tatap muka langsung dengan mentor di Solo untuk kamu yang aktif di akhir pekan."
+      }
+    ],
+    "trialBadge": "Free Trial (30 Menit)",
+    "trialTitle": "Ingin Mencoba Terlebih Dahulu?",
+    "trialDescription": "Kami menyediakan sesi konsultasi & uji coba gratis selama 30 menit (berdasarkan permintaan) untuk memetakan levelmu dan mengenal metode belajar kami.",
+    "trialCta": "Ajukan Free Trial (30 Menit)"
+  },
+  "testimonials": {
+    "badge": "Testimoni Siswa",
+    "heading": "Cerita dari Para Pembelajar Bahasa Kami",
+    "subtitle": "Pengalaman nyata dari siswa yang kini berkomunikasi lebih percaya diri dan natural.",
+    "items": [
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "“Dulu saya sempat takut dengan tata bahasa Jerman. Ned menjelaskan semuanya dengan logika intuitif dan trik praktis yang langsung mudah dipahami. Sekarang saya jauh lebih percaya diri saat berbicara!”",
+        "initials": "AR",
+        "name": "Alya Rahmawati",
+        "role": "Siswa Kursus Jerman · Persiapan Studi di Jerman"
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "“Dulu saya sempat takut dengan tata bahasa Jerman. Ned menjelaskan semuanya dengan logika intuitif dan trik praktis yang langsung mudah dipahami. Sekarang saya jauh lebih percaya diri saat berbicara!”",
+        "initials": "AR",
+        "name": "Alya Rahmawati",
+        "role": "Siswa Kursus Jerman · Persiapan Studi di Jerman"
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "“Dulu saya sempat takut dengan tata bahasa Jerman. Ned menjelaskan semuanya dengan logika intuitif dan trik praktis yang langsung mudah dipahami. Sekarang saya jauh lebih percaya diri saat berbicara!”",
+        "initials": "AR",
+        "name": "Alya Rahmawati",
+        "role": "Siswa Kursus Jerman · Persiapan Studi di Jerman"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "heading": "Pertanyaan yang Sering Diajukan",
+    "subtitle": "Punya pertanyaan lain? Jangan ragu hubungi tim kami langsung melalui WhatsApp.",
+    "items": [
+      {
+        "question": "Berapa biaya belajar di Karima Courses?",
+        "answer": "Biaya kami transparan per orang untuk setiap sesi: Private Learning (1-on-1) Rp 100.000, Duo Learning (2 siswa) Rp 75.000, dan Small Group Learning (hingga 5 siswa) Rp 50.000. Tersedia juga pilihan paket 10 pertemuan — hubungi kami via WhatsApp untuk rekomendasi paket terbaik sesuai targetmu."
+      },
+      {
+        "question": "Apakah benar tersedia free trial 30 menit?",
+        "answer": "Benar! Kami menyediakan sesi konsultasi dan uji coba gratis selama 30 menit berdasarkan permintaan. Di sesi ini kita akan memetakan kemampuan awalmu, membahas tujuan belajar (percakapan, studi luar negeri, Ausbildung, atau karier), dan mencoba langsung metode pengajaran kami."
+      },
+      {
+        "question": "Bagaimana pengaturan jadwal kelasnya?",
+        "answer": "Jadwal kelas sangat fleksibel dan disesuaikan dengan waktu luang serta zona waktumu. Setelah menghubungi kami via WhatsApp, kita akan menyepakati jadwal mingguan yang paling nyaman dengan rutinitas kuliah, kerja, atau aktivitas harianmu."
+      },
+      {
+        "question": "Di mana lokasi kelas tatap muka (offline) dilaksanakan?",
+        "answer": "Kelas tatap muka tersedia di Yogyakarta pada hari kerja (Senin sampai Jumat) dan di Solo pada akhir pekan (Sabtu dan Minggu). Jika kamu berada di luar kota tersebut atau di luar negeri, kamu bisa mengikuti Kelas Online interaktif dari mana saja."
+      },
+      {
+        "question": "Apakah pemula dari nol bisa ikut bergabung?",
+        "answer": "Tentu saja! Program kami terbuka untuk semua tingkatan, mulai dari pemula murni yang belajar dari nol (A1) hingga tingkat menengah dan mahir (hingga C2). Setiap materi disesuaikan dengan ritme belajarmu dalam suasana yang ramah, suportif, dan inklusif."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Siap Membuka Peluang Global?",
+    "subtitle": "Konsultasikan tujuan belajarmu bersama tim kami atau ajukan Free Trial 30 Menit hari ini.",
+    "ctaPrimary": "Hubungi Admin",
+    "ctaSecondary": "Ajukan Free Trial 30 Menit"
+  },
+  "footer": {
+    "description": "Inisiatif belajar bahasa inklusif yang didirikan oleh Ned Taufik (Poliglot). Kursus Bahasa Inggris, Jerman, dan Indonesia secara online & offline (Yogyakarta & Solo).",
+    "menuHeading": "Menu",
+    "contactHeading": "Kontak & Pendaftaran",
+    "superprofLabel": "Profil Superprof",
+    "linkedinLabel": "LinkedIn Nediva Taufik",
+    "locationsHeading": "Lokasi Pembelajaran",
+    "locations": [
+      {
+        "icon": "icon-computer-light.svg",
+        "label": "Online (Seluruh Dunia)"
+      },
+      {
+        "icon": "icon-location-light.svg",
+        "label": "Yogyakarta (Hari Kerja)"
+      },
+      {
+        "icon": "icon-location-light.svg",
+        "label": "Solo (Akhir Pekan)"
+      }
+    ],
+    "copyright": "© 2026 Karima Courses. Hak cipta dilindungi."
+  },
+  "floatingWa": {
+    "label": "Chat via WhatsApp"
+  }
+}

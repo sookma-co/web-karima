@@ -1,0 +1,47 @@
+<section class="kc-section kc-faq" id="faq">
+  <div class="container-xxl kc-container">
+    <div class="kc-section-header text-center mx-auto">
+      <div class="kc-eyebrow"><%= t.faq.badge %></div>
+      <h2 class="kc-section-title"><%= t.faq.heading %></h2>
+      <p class="kc-section-subtitle mb-0"><%= t.faq.subtitle %></p>
+    </div>
+
+    <div class="accordion kc-faq-accordion mx-auto mt-5" id="karimaFaqAccordion">
+      <% t.faq.items.forEach((item, index) => { %>
+      <% const collapseId = `faqCollapse-${index}`; %>
+      <% const headingId = `faqHeading-${index}`; %>
+      <div class="accordion-item kc-faq-item">
+        <h3 class="accordion-header" id="<%= headingId %>">
+          <button
+            class="accordion-button kc-faq-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#<%= collapseId %>"
+            aria-expanded="false"
+            aria-controls="<%= collapseId %>"
+          >
+            <span><%= item.question %></span>
+            <img
+              src="/assets/icons/icon-faq-chevron.png"
+              alt=""
+              width="20"
+              height="20"
+              class="kc-faq-chevron"
+            >
+          </button>
+        </h3>
+        <div
+          id="<%= collapseId %>"
+          class="accordion-collapse collapse"
+          aria-labelledby="<%= headingId %>"
+          data-bs-parent="#karimaFaqAccordion"
+        >
+          <div class="accordion-body kc-faq-body">
+            <%= item.answer %>
+          </div>
+        </div>
+      </div>
+      <% }); %>
+    </div>
+  </div>
+</section>

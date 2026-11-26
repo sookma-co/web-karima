@@ -1,4 +1,4 @@
-# Nestjs specific
+# Build & dependencies
 /dist
 /node_modules
 /build
@@ -13,12 +13,15 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-# dotenv environment variable files
+# Environment variable files (never commit secrets/local overrides)
 .env
+.env.local
 .env.development
 .env.test
 .env.production
 
-# temp directory
+# Temp & OS files
 .temp
 .tmp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,69 @@
+// Courses & Services section
+
+.kc-course-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--kc-surface-white);
+  border: 1px solid var(--kc-border);
+  border-radius: var(--kc-radius-lg);
+  padding: 32px;
+  box-shadow: var(--kc-shadow-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--kc-shadow-elevated);
+  }
+}
+
+.kc-course-card-featured {
+  border: 2px solid var(--kc-ink);
+}
+
+.kc-flag-box {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--kc-radius-icon);
+  background-color: var(--kc-surface-subtle);
+  border: 1px solid var(--kc-border);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.kc-course-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--kc-ink);
+}
+
+.kc-course-subtitle {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--kc-text-muted);
+}
+
+.kc-course-desc {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--kc-text-muted);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 575.98px) {
+  .kc-course-card {
+    padding: 24px 20px;
+  }
+
+  .kc-card-float-badge {
+    right: 14px;
+    font-size: 10.5px;
+    padding: 4px 10px;
+  }
+}

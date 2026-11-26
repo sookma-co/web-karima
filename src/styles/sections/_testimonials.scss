@@ -1,0 +1,167 @@
+// Student Testimonials horizontal marquee carousel
+
+.kc-testimonials {
+  overflow-x: clip;
+}
+
+.kc-marquee-viewport {
+  position: relative;
+  overflow: hidden;
+  padding: 8px 0 16px;
+
+  // Soft edge fade matching the peeking cards in Figma
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 64px;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  &::before {
+    left: 0;
+    background: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  &::after {
+    right: 0;
+    background: linear-gradient(to left, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  }
+}
+
+.kc-marquee-track {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+  animation: kc-marquee-scroll 36s linear infinite;
+
+  &:hover,
+  &:focus-within {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes kc-marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-50% - 8px));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kc-marquee-viewport {
+    overflow-x: auto;
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+
+  .kc-marquee-track {
+    animation: none;
+    padding: 0 24px;
+  }
+}
+
+.kc-testimonial-card {
+  width: 415px;
+  min-height: 340px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--kc-surface-white);
+  border: 1px solid var(--kc-border);
+  border-radius: var(--kc-radius-lg);
+  padding: 30px;
+  box-shadow: var(--kc-shadow-card);
+}
+
+.kc-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.kc-course-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  background-color: var(--kc-surface-subtle);
+  border: 1px solid var(--kc-border);
+  border-radius: var(--kc-radius-pill);
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--kc-text-body);
+  white-space: nowrap;
+}
+
+.kc-inline-flag {
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.kc-testimonial-quote {
+  font-size: 15.36px;
+  line-height: 1.7;
+  color: var(--kc-text-body);
+  margin-bottom: 24px;
+}
+
+.kc-testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-top: 1px solid var(--kc-border-input);
+  padding-top: 16px;
+}
+
+.kc-avatar-circle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: var(--kc-ink);
+  color: var(--kc-surface-white);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13.6px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.kc-author-name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--kc-ink-charcoal);
+}
+
+.kc-author-role {
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: var(--kc-text-muted);
+}
+
+@media (max-width: 575.98px) {
+  .kc-marquee-viewport {
+    &::before,
+    &::after {
+      width: 24px;
+    }
+  }
+
+  .kc-testimonial-card {
+    width: 316px;
+    min-height: 310px;
+    padding: 22px;
+  }
+}

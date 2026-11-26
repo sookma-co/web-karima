@@ -1,0 +1,157 @@
+// Options & Pricing, Delivery Modes, and Free Trial Callout
+
+.kc-pricing-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--kc-surface-white);
+  border: 1px solid var(--kc-border-warm-soft);
+  border-radius: var(--kc-radius-md);
+  padding: 40px 36px;
+  box-shadow: var(--kc-shadow-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--kc-shadow-elevated);
+  }
+}
+
+.kc-pricing-card-featured {
+  border: 1.8px solid var(--kc-ink);
+  box-shadow: var(--kc-shadow-elevated);
+}
+
+.kc-pricing-title {
+  font-size: 22.72px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--kc-ink);
+}
+
+.kc-pricing-subtitle {
+  font-size: 13.12px;
+  font-weight: 500;
+  color: var(--kc-text-muted);
+}
+
+.kc-price-box {
+  background-color: var(--kc-surface-warm);
+  border: 1px solid var(--kc-border-warm);
+  border-radius: var(--kc-radius-sm);
+  padding: 16px;
+}
+
+.kc-price-amount {
+  font-size: 33.26px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--kc-ink);
+  margin-bottom: 6px;
+}
+
+.kc-price-unit {
+  font-size: 12.8px;
+  font-weight: 500;
+  color: var(--kc-text-muted);
+}
+
+.kc-pricing-desc {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--kc-text-body);
+}
+
+// Delivery Modes
+.kc-delivery-card {
+  background-color: var(--kc-surface-white);
+  border: 1px solid var(--kc-border);
+  border-radius: var(--kc-radius-lg);
+  padding: 28px;
+}
+
+.kc-mode-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  background-color: var(--kc-surface-subtle);
+  border: 1px solid var(--kc-border);
+  border-radius: var(--kc-radius-pill);
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--kc-text-body);
+  white-space: nowrap;
+}
+
+.kc-delivery-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--kc-ink);
+}
+
+.kc-delivery-subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--kc-text-muted);
+}
+
+.kc-delivery-desc {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--kc-text-body);
+}
+
+// Free Trial Callout Banner
+.kc-trial-banner {
+  background-image: linear-gradient(173deg, #ffffff 0%, #faf7f0 100%);
+  border: 1px solid var(--kc-border-warm-soft);
+  border-radius: var(--kc-radius-md);
+  padding: 28px 32px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.kc-trial-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 14px;
+  background-color: var(--kc-surface-white);
+  border: 1px solid var(--kc-border-warm);
+  border-radius: var(--kc-radius-pill);
+  box-shadow: var(--kc-shadow-card);
+  font-size: 12.16px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--kc-ink);
+}
+
+.kc-trial-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--kc-ink-charcoal);
+}
+
+.kc-trial-desc {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--kc-text-muted);
+}
+
+@media (max-width: 575.98px) {
+  .kc-pricing-card {
+    padding: 28px 22px;
+  }
+
+  .kc-price-amount {
+    font-size: 28px;
+  }
+
+  .kc-trial-banner {
+    padding: 22px 18px;
+  }
+}
