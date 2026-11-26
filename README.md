@@ -1,6 +1,6 @@
 # web-karima — Karima Courses Landing Page
 
-Responsive, multi-language (**English, German, Indonesian**), security-hardened landing page for **Karima Courses**, managed by Sookma Digital.
+Responsive, multi-language (**English, German, Indonesian**), landing page for **Karima Courses**, managed by Sookma Digital.
 
 Built with **Node.js 24**, **Bootstrap 5.3 (SCSS)**, and **EJS templates** so it runs today as a fast, zero-backend static build (`dist/`) and can be upgraded directly to **Express SSR** without rewriting any views or styles.
 
