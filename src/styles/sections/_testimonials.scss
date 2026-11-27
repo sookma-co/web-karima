@@ -4,10 +4,9 @@
   overflow-x: clip;
 }
 
-.kc-marquee-viewport {
+// Outer wrapper: carries the soft edge fades (they must not scroll with the content)
+.kc-marquee {
   position: relative;
-  overflow: hidden;
-  padding: 8px 0 16px;
 
   // Soft edge fade matching the peeking cards in Figma
   &::before,
@@ -32,6 +31,35 @@
   }
 }
 
+.kc-marquee-viewport {
+  overflow: hidden;
+  padding: 8px 0 16px;
+}
+
+// JS-driven mode (main.js): the viewport scrolls natively so visitors can swipe / drag / wheel,
+// while JS keeps it gliding and loops it seamlessly. Without JS the CSS animation below is used.
+.kc-marquee-viewport.is-interactive {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  cursor: grab;
+  touch-action: pan-x pan-y;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &.is-dragging {
+    cursor: grabbing;
+    user-select: none;
+  }
+
+  .kc-marquee-track {
+    animation: none;
+    padding: 0;
+  }
+}
+
 .kc-marquee-track {
   display: flex;
   gap: 16px;
@@ -41,6 +69,13 @@
   &:hover,
   &:focus-within {
     animation-play-state: paused;
+  }
+}
+
+// Keep a constant, calm scroll speed (~12s per card) regardless of how many testimonials exist
+@for $i from 3 through 40 {
+  .kc-marquee-track.kc-marquee-items-#{$i} {
+    animation-duration: #{$i * 12}s;
   }
 }
 
@@ -57,7 +92,9 @@
 @media (prefers-reduced-motion: reduce) {
   .kc-marquee-viewport {
     overflow-x: auto;
+  }
 
+  .kc-marquee {
     &::before,
     &::after {
       display: none;
@@ -114,6 +151,28 @@
   line-height: 1.7;
   color: var(--kc-text-body);
   margin-bottom: 24px;
+
+  // Keep the student's original line breaks (lists, paragraphs)
+  p {
+    white-space: pre-line;
+  }
+}
+
+// Long verbatim messages scroll inside the card (hover/focus pauses the marquee)
+.kc-testimonial-quote-scroll {
+  max-height: 184px; // ~7 lines
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--kc-border) transparent;
+  mask-image: linear-gradient(to bottom, #000 82%, transparent 100%);
+
+  &:focus-visible {
+    outline: 2px solid var(--kc-ink);
+    outline-offset: 4px;
+    border-radius: 4px;
+  }
 }
 
 .kc-testimonial-author {
@@ -151,8 +210,20 @@
   color: var(--kc-text-muted);
 }
 
+// Static layout used when there are too few testimonials for the marquee
+.kc-testimonial-static {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+
+  .kc-testimonial-card {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 575.98px) {
-  .kc-marquee-viewport {
+  .kc-marquee {
     &::before,
     &::after {
       width: 24px;

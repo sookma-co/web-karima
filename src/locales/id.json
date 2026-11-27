@@ -14,7 +14,7 @@
     "nedPortraitAlt": "Foto profil Ned Taufik, Pendiri dan Mentor Utama Karima Courses",
     "floatingWaLabel": "Chat dengan Karima Courses melalui WhatsApp",
     "testimonialsLabel": "Karusel testimoni siswa",
-    "ratingLabel": "5 dari 5 bintang"
+    "ratingLabel": "{rating} dari 5 bintang"
   },
   "waMessages": {
     "general": "Halo Karima Courses! Saya ingin bertanya mengenai program kursus bahasa dan cara pendaftarannya.",
@@ -298,28 +298,319 @@
     "subtitle": "Pengalaman nyata dari siswa yang kini berkomunikasi lebih percaya diri dan natural.",
     "items": [
       {
-        "courseBadge": "Kursus Jerman",
-        "flag": "flag-de.svg",
-        "quote": "“Dulu saya sempat takut dengan tata bahasa Jerman. Ned menjelaskan semuanya dengan logika intuitif dan trik praktis yang langsung mudah dipahami. Sekarang saya jauh lebih percaya diri saat berbicara!”",
-        "initials": "AR",
-        "name": "Alya Rahmawati",
-        "role": "Siswa Kursus Jerman · Persiapan Studi di Jerman"
+        "courseBadge": "Kursus Inggris",
+        "flag": "flag-gb.svg",
+        "quote": "1. on time\n2. cara mengajarnya baik dan jelas\n3. cara mengajarnya asyik dan santai sehingga muridnya enjoy jika belajar dg mu",
+        "initials": "M",
+        "name": "Mom",
+        "role": "Siswa Kursus Inggris · Keluarga Ned",
+        "rating": 5
       },
       {
         "courseBadge": "Kursus Jerman",
         "flag": "flag-de.svg",
-        "quote": "“Dulu saya sempat takut dengan tata bahasa Jerman. Ned menjelaskan semuanya dengan logika intuitif dan trik praktis yang langsung mudah dipahami. Sekarang saya jauh lebih percaya diri saat berbicara!”",
-        "initials": "AR",
-        "name": "Alya Rahmawati",
-        "role": "Siswa Kursus Jerman · Persiapan Studi di Jerman"
+        "quote": "- kelasnya menyenangkan dan ga tegang\n- ⁠guru tidak judgmental terhadap kemampuan siswa\n- ⁠penjelasan yang diberikan jelas dan mudah dipahami",
+        "initials": "A",
+        "name": "Audra",
+        "role": "Siswa Kursus Jerman · Percakapan Sehari-hari",
+        "rating": 4.5
       },
       {
         "courseBadge": "Kursus Jerman",
         "flag": "flag-de.svg",
-        "quote": "“Dulu saya sempat takut dengan tata bahasa Jerman. Ned menjelaskan semuanya dengan logika intuitif dan trik praktis yang langsung mudah dipahami. Sekarang saya jauh lebih percaya diri saat berbicara!”",
-        "initials": "AR",
-        "name": "Alya Rahmawati",
-        "role": "Siswa Kursus Jerman · Persiapan Studi di Jerman"
+        "quote": "Sebagai pengajar, Diva itu:\n1. Memiliki komitmen tinggi untuk memenuhi janji mengajar yang telah dijadwalkan, sehingga tak jarang mengorbankan kegiatan/agenda lain.\n2. ⁠Memiliki kapasitas pengetahuan bahasa yang sangat memadai, sehingga mampu menjadi problem solver bagi siswanya.\n3. ⁠Mampu memberikan contoh-contoh konkret penggunaan bahasa karena didukung pengalaman lapangan yang sangat panjang.\n4. ⁠Mampu melakukan berbagai hal untuk menuju tujuan yang baik. Tidak malu bertanya dan memperkaya diri dengan informasi baru.\n5. ⁠Memiliki tujuan yang pasti dan mempunyai cara, serta strategi untuk mencapainya.\n6. ⁠Memiliki jiwa yang tulus dan baik, sehingga mampu memperbaiki kesalahan yang lalu dan teguh dengan hal-hal positif sebagai gantinya.\n7. ⁠Mampu memupuk keimanan dan selalu ingat Allah, termasuk berbagi jika memiliki kelebihan materi.\n8. ⁠Memiliki fisik yang cenderung kuat, karena pengalaman digembleng berbagai kegiatan yang menguras energi fisik, seperti lari, napak tilas, mendaki gunung dsb. Karena dia adalah Diva Sport...🙏",
+        "initials": "D",
+        "name": "Dad",
+        "role": "Siswa Kursus Jerman · Keluarga Ned",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Inggris",
+        "flag": "flag-gb.svg",
+        "quote": "Sebagai guru, Nediva sangat komunikatif. Terus berupaya menstimulasi siswanya untuk aktif berpartisipasi di kelas baik itu mempraktekkan materi pelajaran ataupun mengajukan pertanyaan2. Sehingga siswa dapat memahami dan mengingat materi pelajaran lebih baik.",
+        "initials": "TB",
+        "name": "Tante Teti Basaran",
+        "role": "Siswa Kursus Inggris · Keluarga Ned",
+        "rating": 4.5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "Hiermit möchte ich Frau Ned als engagierte und zuverlässige Deutschlehrerin empfehlen. Seit April 2025 arbeitet sie als Nachhilfelehrerin in meinem Online-Sprachzentrum Language Course Surabaya und betreut seither verschiedene Schüler im Fach Deutsch. Frau Ned überzeugt durch eine sehr gute Arbeitsmoral und hohe Verantwortungsbereitschaft. Sie bereitet ihre Unterrichtsstunden sorgfältig vor und geht individuell auf die Bedürfnisse und das Lernniveau ihrer Kursteilnehmer ein. Ihr Unterricht ist strukturiert, verständlich und praxisnah gestaltet. Besonders hervorzuheben sind ihr freundliches Auftreten, ihre Zuverlässigkeit und ihre Professionalität im Umgang mit den Schüler. Sie hat sich in unser Team sehr gut integriert und ihre Aufgaben stets zu unserer vollsten Zufriedenheit erfüllt. Ich kann Frau Ned daher uneingeschränkt als Nachhilfelehrerin für Deutsch empfehlen und bin überzeugt, dass sie auch in Zukunft eine wertvolle Unterstützung für jedes Sprachlernprogramm sein wird.",
+        "initials": "ML",
+        "name": "Michelle Limina",
+        "role": "Pemilik · Language Course Surabaya",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Inggris",
+        "flag": "flag-gb.svg",
+        "quote": "since joining your english private class, I'm truly amazed by how much more confident I feel when speaking in english. you made every lesson feel supportive and created a space where I feel comfortable practicing and making mistakes, and now I feel so much more confidance when speaking english.",
+        "initials": "RZ",
+        "name": "Rakha Zufar",
+        "role": "Siswa Kursus Inggris · Percaya Diri Berbicara",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Inggris",
+        "flag": "flag-gb.svg",
+        "quote": "So my first impression was, ur not that boring tbh, I like the websites you showed me, especially the orange english website, it's fun, and interactive! (Except for that game with a timer), I would recommend your english classes to my classmates you know, since most of my friendziez doesn't understand english, also just to tell you, ur basically my fav english teacher I've out of the other english teachers I had since I started my first english lesson when I was 4 or 5 (I forgor) thats it basically",
+        "initials": "JJ",
+        "name": "Javie Jesse",
+        "role": "Siswa Kursus Inggris · Pelajar Sekolah",
+        "rating": 4.5
+      },
+      {
+        "courseBadge": "Kursus Inggris",
+        "flag": "flag-gb.svg",
+        "quote": "Kak Diva itu seru saat mengajar!🤩💥 Walaupun ini pengalaman pertama, tapi Kak Diva udah bisa menyesuaikan cara mengajarnya dengan karakter murid-muridnya. Jadwalnya juga jelas dan selalu tepat waktu. Cara menjelaskan materinya santai dan mudah dipahami, jadi murid-murid pun belajar dengan enjoy 💓",
+        "initials": "N",
+        "name": "Najya",
+        "role": "Siswa Kursus Inggris · Kelas Kelompok",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "buatku pas pertemuan pertama tuh i sampe sempet ngelag dulu otakku takut ga nangkep apa yang diomongin, aku yg takut takut buat belajar B2 pun diajak enjoy dan kalo ada yg ga paham pun bisa lgsg dijelasin secara rinci gt sama kak ned jd seneng belajarnya walau aku msh belum lancar tp semoga one day bisa kaya kak ned aamiin!!",
+        "initials": "AS",
+        "name": "Ambar Salsa",
+        "role": "Siswa Kursus Jerman · Level B2",
+        "rating": 4.5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "from the very first class i already felt so comfortable learning with you. cara ngajar frau tuh calming banget, jelas, dan nggak bikin pressure. frau selalu bisa ngejelasin hal-hal yang ribet jadi lebih gampang dimengerti, dan aku suka banget pas frau ned kasih contoh-contoh yang relatable. dan yang paling aku appreciate adalah how patient and encouraging you are. frau nggak pernah bikin aku ngerasa takut buat salah, malah selalu support dan kasih semangat supaya aku lebih percaya diri buat coba terus walaupun masih jauh bgt bagus nya. belajar sama frah juga rasanya nggak cuma dapet ilmu, tapi juga dapet motivasi. kelasnya juga selalu enak vibes-nya, santai tapi tetap fokus 🫶🏻",
+        "initials": "WF",
+        "name": "Wynne Felicia",
+        "role": "Siswa Kursus Jerman · Membangun Percaya Diri",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "„Wenn Kak Ned den Unterricht beginnt, denkt man zuerst: 'Ach, das wird bestimmt anstrengend…' Und zehn Minuten später fragt man sich: 'Warum bin ich plötzlich motivierter als mein Kaffee?'“ ☕😄\n\nKak Ned itu tipe guru yang ngajarin bukan cuma dari buku—tapi juga dari auranya. Pertama kali aku masuk kelas, jujur aku takut banget karena cuman bertiga dan aku diajar langsung dari Jerman! 😬😬 Dimulailah overthinking mulai dari \"Aku ngerti ga ya accentnya?\" sampai \"Gimana kalau aku ga ngerti sama sekali materi hari ini?!\" Tapi ternyata, setelah kelas berlangsung beberapa kali, kelas ini nggak pernah bikin aku ngerasa bodoh, bahkan kalau aku tanya “Was ist ein Subjekt?” padahal udah B2. Kelasnya tuh kayak simulasi hidup: ada tension, tapi tiap kali kami mulai tegang atau panik, Ned langsung lempar jokes ringan atau komentar absurd yang bikin kelas langsung cair—yang bahkan kadang aku menemukan diriku sendiri ketawa-ketawa sepanjang kelas. Tapi jangan salah—walau suasananya santai, kontennya itu padet banget. Listening, writing, speaking, bahkan koreksi detail yang nggak pernah aku dapet di tempat lain. Serasa dia punya grammar scanner built-in 😋. Jujur, dulu aku ikut les yang terkenal banget, kayak franchise besar gitu—ibarat Starbucks-nya dunia pelajaran. Tapi waktu belajar sama kak Ned, rasanya kayak warung kopi lokal yang kopinya justru nendang. Lebih berasa dan bikin melek bahasa Jermannya.\n\nKalau kak Ned itu produk, dia pasti masuk kategori: „pädagogisch wertvoll mit Anti-Stress-Garantie.“ 😎✨\n\nKalau waktu bisa diputar, aku bakal daftar kelasnya Kak Ned duluan. Les yang dulu tuh kayak jalan tol—cepat, lancar. Tapi kelas sama Kak Ned tuh kayak jalan alternatif yang ternyata punya pemandangan dan insight lebih seru! ❤️\n\nA course here means „Richtig erklärt heißt wirklich verstanden.“ Not perfect but life changing!\n\nKalau kamu lagi cari kelas bahasa Jerman yang nggak cuma ngajarin, tapi bikin kamu bener-bener paham dan enjoy prosesnya, aku 100% rekomendasiin kelas Kak Ned. Dijamin melek grammar tanpa stres! 💘🥹",
+        "initials": "SS",
+        "name": "Shannon Sugianto",
+        "role": "Siswa Kursus Jerman · Kelompok Kecil B2",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Inggris",
+        "flag": "flag-gb.svg",
+        "quote": "Ikut les bahasa Inggris sama tante Diva dari awal udah terasa banget vibes belajarnya yang asyik dan positif. Cara ngajarnya itu sabar, jelas, dan bisa banget menyesuaikan gaya belajar murid. Gavind yang awalnya agak pemalu bahkan kayak insecure gitu,,sekarang jadi lebih percaya diri saat speaking dan lebih aktif juga nanya-nanya yaa wlopun masih campur sama bahasa ya. 🤭\n\nSelain itu juga selama les, tante Diva nggak cuma ngasih materi, tapi juga bikin suasana belajar jadi fun dan santai. Kelasnya nggak kerasa kaku sama sekali, malah serasa ngobrol tapi tetap dapet ilmunya. Kreatif banget dalam kasih contoh, suka pakai games ringan, semacam quiz atau topik yang relevan sama dunia anak-anak. Bahkan kadang materi di kelas sekolah, juga boleh dibahas selama les.\n\nKalau kamu cari guru les Bahasa Inggris yang sabar, ngerti kebutuhan murid, dan bisa bikin belajar terasa ringan tapi tetap berdampak, mama gavind dengan senang hati rekomendasiin kak Nediva dehh buat improve skill cas cis cuss Englishnya atau nugas matpel Bahasa Inggris nya 😉. Pokoknya cocok banget buat yang pengen belajar tanpa stres, tapi hasilnya cukup keliatan jugaa 🥳",
+        "initials": "NG",
+        "name": "Kak Nita & Gavind",
+        "role": "Kursus Inggris · Orang Tua Gavind",
+        "rating": 4.5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "Belajar bahasa jerman sama Nediva nyaman banget!!! Pembawaannya santai, waktu belajarnya juga flexibel sesuai keinginan & kalau belum ngerti materinya bisa diulang sampai mengerti. Worth it banget belajar sama ned👍",
+        "initials": "FF",
+        "name": "Fadhil Fauzan",
+        "role": "Siswa Kursus Jerman · Kelas Privat Fleksibel",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "Selama aku awal belajar bener-bener dituntun bagaimana startnya sampe pemahamannya, pelafalan tiap kata dan pengucapannya, ngasih tau kenapa dan syarat untuk membuat kalimat itu gimana. Bagusnya kak nediv itu sabar karena aku mungkin orangnya suka grasak grusuk haha. Semoga bisa lanjut belajar sama kak nediv. + suatu saat bisa ketemu. Aku juga sering share ss waktu pembelajaran ku supaya org2 juga tertarik dan belajar bareng dan kebetulan ada 1 yg tertarik temenku. Mungkin kalau lebih intens aku bisa lebih cepat belajarnya.",
+        "initials": "BR",
+        "name": "Boy Rigara",
+        "role": "Siswa Kursus Jerman · Pemula",
+        "rating": 4
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "Vielen Dank für den tollen Deutschunterricht! Auch wenn ich manchmal Schwierigkeiten mit der Sprache habe, hilft mir Ned immer sehr. Ich schätze ihre Geduld und ihren freundlichen Unterrichtsstil.",
+        "initials": "MK",
+        "name": "Maryna Kleinová",
+        "role": "Siswa Kursus Jerman · Bahasa Jerman Sehari-hari",
+        "rating": 4.5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "I briefly met Ned while looking for a German Conversation Course. Ned is a friendly, multilingual & musical person. I found it easy to convey my expectations from the course and we customized it as we went. We tried out different learning formats which made learning fun (Mr. Blob Presentation :)) and effective at the same time. What stood out the most, was her ability to accommodate changes in the schedule even at short notices. She always gave critical feedback and tips to improve further. Ever since, I have become more confident in my German language conversational skills. One must trust her \"Hausaufgaben” and can then already start seeing consistent improvements!!",
+        "initials": "VC",
+        "name": "Vaishali Chopra",
+        "role": "Siswa Kursus Jerman · Kursus Percakapan",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Inggris",
+        "flag": "flag-gb.svg",
+        "quote": "Hallo Ned, ich möchte mich für den tollen Unterricht bedanken. Deine Nachhilfestunden sind immer sehr abwechslungsreich und motivierend. Du bist jedes Mal geduldig und gehst auf alle meine Fragen und Probleme ein. Mit Dir macht mir Englisch sehr viel Spaß. Ich freue mich auf weitere Stunden. In der Schule konnte ich mich schon verbessern. Den Unterricht bei Dir kann ich jedem nur empfehlen. Vielen Dank, Eric.",
+        "initials": "ED",
+        "name": "Eric Drenckhan",
+        "role": "Siswa Kursus Inggris · Les Pendamping Sekolah",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Inggris",
+        "flag": "flag-gb.svg",
+        "quote": "Zuerst möchte ich sagen, dass du deinen Unterricht gut gestaltest.😊 Du kannst  Fragen, sei es eine Vokabel, die ich nicht weiß oder ein Thema, dass ist noch ein bisschen besser verstehen möchte, meist sofort beantworten und erklärst auch gut weshalb es nun so ist! Außerdem finde ich richtig toll wie du mich immer motivierst und auch immer lobst, wenn ich etwas gut gemacht habe! Dein Unterricht ist immer sehr locker und nicht angespannt, sodass ich auch Spaß habe und keine Angst habe, etwas falsch zu machen. Dies ist auch sehr wichtig finde ich! Klar zu Beginn dachte ich, ob es nicht vielleicht zu locker ist, da wir viel einfach so (Smalltalk) geredet haben, aber ich denke für den Anfang zum rein kommen war das vielleicht ganz gut! Tips, damit ich mein Englisch noch weiter verbessern kann hast du mir auch immer gute gegeben. Leider hat es trotzdem nicht ganz auf die 3 im Zeugnis gereicht🥲 aber es war sehr knapp mit einer 3,7. In der Arbeit hatte ich eine 4,5. Hoffentlich wird es im nächsten Jahr eine 3 im Zeugnis. Mein Wunsch wäre für das kommende Schuljahr, dass wir die ganze nötige Grammatik um einen guten Satzbau und eine gute Sprache zu bekommen, durchmachen würden! Außerdem fände ich es schön, wenn du dir die Themen/Aufgaben schon vor der Unterrichtsstunde überlegen könntest, weil wenn du mich danach fragst fällt mir meist nichts ein.😅",
+        "initials": "JA",
+        "name": "Jana Alts",
+        "role": "Siswa Kursus Inggris · Les Pendamping Sekolah",
+        "rating": 4
+      },
+      {
+        "courseBadge": "Kursus Inggris",
+        "flag": "flag-gb.svg",
+        "quote": "War sehr hilfreich und warst immer sehr sympathisch. Hat also ebenfalls sehr viel Spaß gemacht. Und Solang man lernt und Spaß hat, hat man eigentlich alles richtig gemacht und ich freue mich bald wieder mit dir Nachhilfe Stunden zu haben.👍💪",
+        "initials": "LB",
+        "name": "Levin Backes",
+        "role": "Siswa Kursus Inggris · Les Pendamping Sekolah",
+        "rating": 4.5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "Ned ist eine sehr nette Person. Sie geht auf dein Lerntempo ein und hilft dir gut und schnell bei deinen Problemen. Dazu kann man auch noch sagen, dass es sehr viel Spaß macht, mit ihr zu reden und Nachhilfe zu machen. Es fühlt sich nicht an als würde man gezwungen werden, da es einfach entspannt ist. Daher ist es sehr zu empfehlen, mit Ned Nachhilfe zu machen.",
+        "initials": "CB",
+        "name": "Caroline Brings",
+        "role": "Siswa Kursus Jerman · Les Pendamping Sekolah",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "I’ve had a great experience learning German with you! Your teaching style is clear, engaging and tailored to meet my pace of learning.😊🙏",
+        "initials": "NP",
+        "name": "Nina Pezetta",
+        "role": "Siswa Kursus Jerman · Belajar Sesuai Ritme Sendiri",
+        "rating": 4.5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "Kelas yang diajar oleh Kak Ned sangat interaktif. Belajarnya santai namun tetep serius. Kak Ned sabar dalam menjelaskan apabila masih ada bagian yang belum dimengerti. Dan setiap pertemuan ada target materi yg harus dipahami, jd belajar lebih tersistematis. Pokonya belajar lebih nyaman, santai namun tetap berprogres. Kelasnya seru abis! danke🙏🏻",
+        "initials": "NA",
+        "name": "Nina Anggraeni",
+        "role": "Siswa Kursus Jerman · Kelas Interaktif",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Inggris",
+        "flag": "flag-gb.svg",
+        "quote": "Ich habe seit fast 2 Monaten die Frau Taufik als Nachhilfelehrerin und bin sehr begeistert von ihr wie weit sie mein Wissen schon gebracht hat und hoffentlich bringen wird. Sie erklärt mir unklare Aufgaben bis ich es verstehe und hat viel Geduld mit mir. Außerdem kann ich immer fragen wenn etwas unklar ist und werde mit einem Applaus belohnt wenn ich viel richtig gemacht habe. Sie ermutigt mich immer wenn es mal nicht so klappt und hilft mir es besser zu machen. Ich bin sehr froh so eine tolle Lehrerin zu haben und freue mich weiterhin mit ihr an meinen Problemstellen zu arbeiten.",
+        "initials": "TA",
+        "name": "Tina Angela Weigelt",
+        "role": "Siswa Kursus Inggris · Les Pendamping Sekolah",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "German lesson dari Kak Ned really fun!! pembawaan nya santai tapi engaging bgt, semua murid bisa semangat untuk aktif di kelas. Aku baru pertama belajar bahasa jerman dituntun secara jelas untuk pelajarin bahasanya. 100/100 would recommend to every person wanting to learn German!!",
+        "initials": "RA",
+        "name": "Ricky Arofi",
+        "role": "Siswa Kursus Jerman · Pemula",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Inggris",
+        "flag": "flag-gb.svg",
+        "quote": "Menurut aku belajarnya kaya sama temen sendiri! jadi ga canggung dan lebih nyaman. Nediva sabar banget mau ngulang materi yang aku perlu berulang kali pahamin, ngebantu banget sih ini bagian ngoreksi pronounciation dan tulisan yang aku buat sambil kasih opsinya juga. Aku udah rekomendasiin ke temen ku juga, karena mereka ngerasa kalau belajar yang group gitu kurang bisa ngikutin pace nya, tapi kalau 1o1 gini lebih maksimal^^",
+        "initials": "UH",
+        "name": "Ummi (Mihan) Hanik",
+        "role": "Siswa Kursus Inggris · Kelas Privat 1-on-1",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "Kelas kakak seru, bisa dimengerti dengan jelas, secara penyampaian materi sangat baik, dan kalau ada temenku yang harus belajar jerman pasti akan kurekomendasikan",
+        "initials": "ES",
+        "name": "Ethan Sirait",
+        "role": "Siswa Kursus Jerman · Kelompok Kecil",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "Kesan ku ikut kelas bahasa German 🇩🇪 dengan Ned itu asik dan interaktif! Ned cara ngajarnya sabar, terstruktur, dan mudah dipahami. Setiap materi disampaikan dengan jelas dan kalau aku masih bingung, Ned bakal ngulang dan menjelaskan sampai aku paham. Selain kelasnya nggak kaku, kelas Ned dibatasi jumlah murid, jadi bisa lebih fokus dan semua ada kesempatan untuk latihan speaking, menjawab pertanyaan, dan kontribusi! Plus, di setiap bab ada test, yang bakal dijelasin letak kesalahannya secara personal. Very-very recommended! ✨👍",
+        "initials": "NB",
+        "name": "Nehemia Blessing",
+        "role": "Siswa Kursus Jerman · Kelompok Kecil",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "Der Kurs mit Ned ist sehr gut. Wir haben fiele verschidene Thema gesprochen. Ich habe sie immer gut verstenden. mit Ned haben wir uber alles reden. Die Motode welche sie hat gelernt, mir hat gut gepast. Ich habe bemerkt dass ich beser schreiben und reden kann. und si ist emmer net. Menne hofnung ist fließend schreinen un reden. Ich hofe dass nach pause wir wieder zusammen  können  lernen.",
+        "initials": "MK",
+        "name": "Maryna Kleinovà",
+        "role": "Siswa Kursus Jerman · Percakapan & Menulis",
+        "rating": 4.5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "Nach dem Kurs fühle ich mich im Vergleich zu vorher viel sicherer zum Sprechen auf Deutsch. Der Kurs hat mir beigebracht, wie man die Sprache richtig versteht und wie die Leute sie normalerweise verwenden, also nicht nur akademisch.",
+        "initials": "JL",
+        "name": "Jane Ligawan",
+        "role": "Siswa Kursus Jerman · Berbicara Sehari-hari",
+        "rating": 4.5
+      },
+      {
+        "courseBadge": "Kursus Inggris",
+        "flag": "flag-gb.svg",
+        "quote": "Ich finde Ned eine gute Nachhilfelehrerin, weil sie mir Themen erklärt, die ich nicht verstehe und auch dann mit mir alle Regeln wiederholt, weil sie mir bei den Hausaufgaben hilft, und wenn ich es nicht verstehe, nochmal durchgeht und sagt, was meine Fehler waren und weil wenn ich nichts habe zum Lernen, sie mit mir übt, Texte zu schreiben und zu sprechen auf Englisch. Ich finde sie als Englisch-Nachhilfelehrerin gut und meine Note hat sich dank ihr verbessert.",
+        "initials": "JD",
+        "name": "Jonna Dietzler",
+        "role": "Siswa Kursus Inggris · Les Pendamping Sekolah",
+        "rating": 4.5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "I highly recommend this German teacher. She is easy to understand in both English and German, which makes the learning experience less stressful and relaxed. The lessons are organized well, so you always know what you're working towards. And the pricing is very fair for the quality of teaching she provides. A great choice for anyone looking to improve their German effectively.",
+        "initials": "DP",
+        "name": "Dylan Pinto",
+        "role": "Siswa Kursus Jerman · Diajar dalam Bahasa Inggris & Jerman",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "ich finde das du eine gute Lehrerin bist. du machst denn Untericht hier gut und ich finde gut das du so freundlich und empatisch bist .Mann kann mit dir auch gut reden .mir fält nichts ein was du so verändern musst an dem untericht weil ich denn Untericht gut finde .Und ganz wichtig das du nicht so streng bist finde ich toll.",
+        "initials": "VA",
+        "name": "Vanessa Albert",
+        "role": "Siswa Kursus Jerman · Les Pendamping Sekolah",
+        "rating": 4.5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "Belajar bareng Kak Ned itu pengalaman yang seru banget dan jauh dari kesan kaku. Orangnya sangat fun dan punya pembawaan yang santai, jadi suasana kelas selalu terasa nyaman buat diskusi. Salah satu hal yang paling aku apresiasi adalah kesabarannya; Kak Ned nggak pernah keberatan buat jelasin ulang berkali-kali kalau aku atau bano ada yang kurang paham sampai benar-benar mengerti.\n\nPoin plus yang paling berkesan adalah insight langsung dari Kak Ned karena beliau tinggal di Jerman. Jadi, sesi belajar nggak cuma soal teori, tapi aku juga dapet gambaran nyata tentang kehidupan di sana, mulai dari kultur sehari-hari, sistem perkuliahannya, sampai langkah-langkah konkret apa saja yang harus disiapkan kalau mau berkarier di sana. Informasi 'orang dalam' seperti ini berharga banget dan bikin sesi belajar jadi nggak membosankan karena selalu ada cerita menarik di sela-sela materi. Highly recommended buat siapa pun yang mau belajar dengan suasana yang suportif dan informatif😁 (arya ganteng)\n\nLernen mit Kak Ned macht viel Spaß! Sie ist sehr nett dan geduldig. Wenn bano dan ich etwas nicht verstehen, erklärt sie es noch einmal.\n\nDas ist super: Kak Ned lebt in Deutschland. Sie erzählt viel über das Leben dort, das Studium und die Arbeit. Das ist sehr interessant und nicht langweilig. Ich lerne viel über die Kultur.\n\nIch empfehle Kak Ned! Sie ist eine tolle Lehrerin. (arya ganteng)",
+        "initials": "AK",
+        "name": "Arya Kusna",
+        "role": "Siswa Kursus Jerman · Persiapan Studi & Karier di Jerman",
+        "rating": 5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "Giliran aku sekarang yang testi, aku mungkin gak panjang2 kaya arya kak hehehe….\n\nHonest testi selama diajarin sama kak ned itu jujur kelasnya gak boring, gak kaku, pelajaran yang dikasih ke aku dan arya juga sangat amat masuk ke kepala kami berdua, dan feelnya gak kaya sama guru tapi kaya sama temen, which is great karna jd ga awkward, terus aku personally love banget kalau diselipin cerita cerita ttg kehidupan di jerman, karna bisa jadi gambaran buat aku, dan karna kak ned tinggal disana for a very long time dan membaur dgn orang sana juga, kami juga dapat bonus cultural exchange!\n\nalso dapet bonus ngobrol beneran sm native-nya, tp pas itu kami malah ngeblank hahaha",
+        "initials": "NA",
+        "name": "Natasa Arum Banowati",
+        "role": "Siswa Kursus Jerman · Kelas Duo",
+        "rating": 4.5
+      },
+      {
+        "courseBadge": "Kursus Jerman",
+        "flag": "flag-de.svg",
+        "quote": "Ned loves linguistics and it shows :) I mainly wanted to improve my spoken German and her teaching style works for me. She gives me time to think and speak instead of rushing me, helps with my pronunciation, teaches different ways to say things with synonyms, and have a bit of small talk, which makes the lessons feel a lot less stressful. Learning with her has been fun so far!",
+        "initials": "CP",
+        "name": "Claudia Pricillia",
+        "role": "Siswa Kursus Jerman · Latihan Berbicara",
+        "rating": 4.5
       }
     ]
   },

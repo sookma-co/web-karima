@@ -1,0 +1,7 @@
+.claude
+.env
+.env.*
+.vercel
+node_modules
+dist
+Data Testimoni.txt

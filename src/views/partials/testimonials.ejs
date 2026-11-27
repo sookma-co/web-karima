@@ -1,3 +1,66 @@
+<%
+  // With only a few testimonials a moving marquee looks repetitive, so they are shown as a
+  // static centered row. From MARQUEE_MIN_ITEMS onwards the infinite marquee is used.
+  const MARQUEE_MIN_ITEMS = 3;
+  // Messages are shown verbatim; longer ones scroll inside the card instead of stretching every card.
+  const LONG_QUOTE_CHARS = 300;
+  const items = t.testimonials.items;
+  const useMarquee = items.length >= MARQUEE_MIN_ITEMS;
+
+  // Renders one testimonial card. Duplicate (marquee loop) cards are hidden from assistive tech.
+  const renderCard = (item, isDuplicate) => { %>
+      <% if (isDuplicate) { %>
+      <figure class="kc-testimonial-card mb-0" aria-hidden="true">
+      <% } else { %>
+      <figure class="kc-testimonial-card mb-0">
+      <% } %>
+        <div>
+          <div class="d-flex align-items-center justify-content-between gap-2 mb-3">
+            <%
+              const rating = Math.min(5, Math.max(0, Number(item.rating) || 5));
+              const ratingText = t.a11y.ratingLabel.replace('{rating}', rating.toLocaleString(localeMeta.htmlLang));
+            %>
+            <% if (isDuplicate) { %>
+            <div class="kc-stars">
+            <% } else { %>
+            <div class="kc-stars" role="img" aria-label="<%= ratingText %>">
+            <% } %>
+              <% for (let i = 1; i <= 5; i++) { %>
+              <% const starIcon = rating >= i ? 'icon-star.svg' : (rating >= i - 0.5 ? 'icon-star-half.svg' : 'icon-star-empty.svg'); %>
+              <img src="/assets/icons/<%= starIcon %>" alt="" width="14" height="14">
+              <% } %>
+            </div>
+            <% if (item.courseBadge) { %>
+            <span class="kc-course-badge-pill">
+              <span><%= item.courseBadge %></span>
+              <% if (item.flag) { %>
+              <img src="/assets/icons/<%= item.flag %>" alt="" width="16" height="12" class="kc-inline-flag">
+              <% } %>
+            </span>
+            <% } %>
+          </div>
+          <% if (item.quote.length > LONG_QUOTE_CHARS && !isDuplicate) { %>
+          <blockquote class="kc-testimonial-quote kc-testimonial-quote-scroll mb-0" tabindex="0" aria-label="<%= item.name %>">
+          <% } else if (item.quote.length > LONG_QUOTE_CHARS) { %>
+          <blockquote class="kc-testimonial-quote kc-testimonial-quote-scroll mb-0">
+          <% } else { %>
+          <blockquote class="kc-testimonial-quote mb-0">
+          <% } %>
+            <p class="mb-0"><%= item.quote %></p>
+          </blockquote>
+        </div>
+
+        <figcaption class="kc-testimonial-author">
+          <div class="kc-avatar-circle" aria-hidden="true"><%= item.initials %></div>
+          <div>
+            <div class="kc-author-name"><%= item.name %></div>
+            <% if (item.role) { %>
+            <div class="kc-author-role"><%= item.role %></div>
+            <% } %>
+          </div>
+        </figcaption>
+      </figure>
+<% }; %>
 <section class="kc-section kc-testimonials" id="testimonials">
   <div class="container-xxl kc-container">
     <div class="kc-section-header text-center mx-auto">
@@ -7,67 +70,24 @@
     </div>
   </div>
 
-  <div class="kc-marquee-viewport mt-5" role="region" aria-label="<%= t.a11y.testimonialsLabel %>">
-    <div class="kc-marquee-track">
-      <!-- Primary set -->
-      <% t.testimonials.items.forEach((item) => { %>
-      <figure class="kc-testimonial-card mb-0">
-        <div>
-          <div class="d-flex align-items-center justify-content-between gap-2 mb-3">
-            <div class="kc-stars" aria-label="<%= t.a11y.ratingLabel %>">
-              <% for (let i = 0; i < 5; i++) { %>
-              <img src="/assets/icons/icon-star.svg" alt="" width="14" height="14">
-              <% } %>
-            </div>
-            <span class="kc-course-badge-pill">
-              <span><%= item.courseBadge %></span>
-              <img src="/assets/icons/<%= item.flag %>" alt="" width="16" height="12" class="kc-inline-flag">
-            </span>
-          </div>
-          <blockquote class="kc-testimonial-quote mb-0">
-            <p class="mb-0"><%= item.quote %></p>
-          </blockquote>
-        </div>
+  <% if (useMarquee) { %>
+  <!-- Outer wrapper holds the edge fades so they stay put while the viewport scrolls -->
+  <div class="kc-marquee mt-5">
+    <div class="kc-marquee-viewport" role="region" aria-label="<%= t.a11y.testimonialsLabel %>">
+      <div class="kc-marquee-track kc-marquee-items-<%= Math.min(items.length, 40) %>">
+        <!-- Primary set -->
+        <% items.forEach((item) => renderCard(item, false)); %>
 
-        <figcaption class="kc-testimonial-author">
-          <div class="kc-avatar-circle" aria-hidden="true"><%= item.initials %></div>
-          <div>
-            <div class="kc-author-name"><%= item.name %></div>
-            <div class="kc-author-role"><%= item.role %></div>
-          </div>
-        </figcaption>
-      </figure>
-      <% }); %>
-
-      <!-- Duplicate set for seamless infinite scroll -->
-      <% t.testimonials.items.forEach((item) => { %>
-      <figure class="kc-testimonial-card mb-0" aria-hidden="true">
-        <div>
-          <div class="d-flex align-items-center justify-content-between gap-2 mb-3">
-            <div class="kc-stars">
-              <% for (let i = 0; i < 5; i++) { %>
-              <img src="/assets/icons/icon-star.svg" alt="" width="14" height="14">
-              <% } %>
-            </div>
-            <span class="kc-course-badge-pill">
-              <span><%= item.courseBadge %></span>
-              <img src="/assets/icons/<%= item.flag %>" alt="" width="16" height="12" class="kc-inline-flag">
-            </span>
-          </div>
-          <blockquote class="kc-testimonial-quote mb-0">
-            <p class="mb-0"><%= item.quote %></p>
-          </blockquote>
-        </div>
-
-        <figcaption class="kc-testimonial-author">
-          <div class="kc-avatar-circle"><%= item.initials %></div>
-          <div>
-            <div class="kc-author-name"><%= item.name %></div>
-            <div class="kc-author-role"><%= item.role %></div>
-          </div>
-        </figcaption>
-      </figure>
-      <% }); %>
+        <!-- Duplicate set for seamless infinite scroll -->
+        <% items.forEach((item) => renderCard(item, true)); %>
+      </div>
     </div>
   </div>
+  <% } else { %>
+  <div class="container-xxl kc-container">
+    <div class="kc-testimonial-static mt-5" role="region" aria-label="<%= t.a11y.testimonialsLabel %>">
+      <% items.forEach((item) => renderCard(item, false)); %>
+    </div>
+  </div>
+  <% } %>
 </section>
