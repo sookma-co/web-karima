@@ -1,0 +1,127 @@
+// Page-load intro animation (hero + navbar + floating WhatsApp)
+// Pure CSS: runs once on first paint, needs no JS (CSP-safe) and always ends fully visible.
+// Uses the individual `translate`/`scale` properties so it never overrides existing `transform` rules.
+
+$kc-intro-ease: cubic-bezier(0.22, 1, 0.36, 1); // easeOutQuint — fast start, soft landing
+$kc-intro-duration: 700ms;
+
+@keyframes kc-intro-fade-up {
+  from {
+    opacity: 0;
+    translate: 0 18px;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes kc-intro-fade-down {
+  from {
+    opacity: 0;
+    translate: 0 -12px;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes kc-intro-zoom-in {
+  from {
+    opacity: 0;
+    scale: 0.97;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes kc-intro-pop {
+  from {
+    opacity: 0;
+    translate: 0 10px;
+    scale: 0.92;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1;
+  }
+}
+
+@mixin kc-intro($name, $delay, $duration: $kc-intro-duration) {
+  animation: $name $duration $kc-intro-ease $delay both;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .kc-navbar-wrap {
+    @include kc-intro(kc-intro-fade-down, 0ms, 500ms);
+  }
+
+  // Headline lines cascade in one after another
+  .kc-hero-title > span {
+    @include kc-intro(kc-intro-fade-up, 80ms);
+
+    &:nth-child(2) {
+      animation-delay: 160ms;
+    }
+
+    &:nth-child(3) {
+      animation-delay: 240ms;
+    }
+  }
+
+  .kc-hero-copy {
+    @include kc-intro(kc-intro-fade-up, 340ms);
+  }
+
+  .kc-hero-ctas {
+    @include kc-intro(kc-intro-fade-up, 440ms);
+  }
+
+  .kc-hero-stats {
+    @include kc-intro(kc-intro-fade-up, 540ms);
+  }
+
+  .kc-hero-photo-frame {
+    @include kc-intro(kc-intro-zoom-in, 120ms, 900ms);
+  }
+
+  .kc-hero-pill-top {
+    @include kc-intro(kc-intro-pop, 700ms, 600ms);
+  }
+
+  .kc-hero-pill-bottom {
+    @include kc-intro(kc-intro-pop, 820ms, 600ms);
+  }
+
+  .kc-floating-wa {
+    @include kc-intro(kc-intro-pop, 1000ms, 600ms);
+  }
+
+  // Scroll reveal — `.kc-reveal` is only added by main.js (opt-in), `.is-visible` when in view
+  .kc-reveal {
+    opacity: 0;
+    translate: 0 24px;
+    transition:
+      opacity 650ms $kc-intro-ease,
+      translate 650ms $kc-intro-ease;
+
+    &.is-visible {
+      opacity: 1;
+      translate: 0 0;
+    }
+
+    @for $i from 1 through 4 {
+      &.kc-reveal-d#{$i} {
+        transition-delay: #{$i * 90}ms;
+      }
+    }
+  }
+}

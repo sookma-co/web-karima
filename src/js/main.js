@@ -74,7 +74,65 @@
     sections.forEach((section) => observer.observe(section));
   }
 
+  /**
+   * Soft fade-up of section headers and cards as they scroll into view (runs once per element).
+   * Elements are only hidden after JS opts in, so content stays visible if JS fails or
+   * the visitor prefers reduced motion.
+   */
+  function initScrollReveal() {
+    const REVEAL_SELECTOR = [
+      'main section[id] .kc-section-header',
+      '.kc-info-card',
+      '.kc-portrait-panel',
+      '.kc-course-card',
+      '.kc-skill-card',
+      '.kc-mentorship-banner',
+      '.kc-pricing-card',
+      '.kc-delivery-card',
+      '.kc-trial-banner',
+      '.kc-marquee-viewport',
+      '.kc-faq-accordion',
+      '.kc-cta-card',
+    ].join(',');
+    const MAX_STAGGER_STEPS = 4;
+
+    const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion || !('IntersectionObserver' in window)) return;
+
+    const targets = Array.from(document.querySelectorAll(REVEAL_SELECTOR));
+    if (!targets.length) return;
+
+    targets.forEach((el) => el.classList.add('kc-reveal'));
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        // Elements entering together (e.g. a row of cards) cascade one after another
+        let step = 0;
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          const el = entry.target;
+          const delayStep = Math.min(step, MAX_STAGGER_STEPS);
+          if (delayStep > 0) el.classList.add(`kc-reveal-d${delayStep}`);
+          el.classList.add('is-visible');
+          observer.unobserve(el);
+          // Hand transitions back to the card's own hover styles once the reveal is done
+          const onRevealEnd = (event) => {
+            if (event.target !== el || event.propertyName !== 'opacity') return;
+            el.removeEventListener('transitionend', onRevealEnd);
+            el.classList.remove('kc-reveal', 'is-visible', `kc-reveal-d${delayStep}`);
+          };
+          el.addEventListener('transitionend', onRevealEnd);
+          step += 1;
+        });
+      },
+      { rootMargin: '0px 0px -10% 0px', threshold: 0.12 }
+    );
+
+    targets.forEach((el) => observer.observe(el));
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
+    initScrollReveal();
     initMobileNavAutoClose();
     initLanguageSwitcher();
     initActiveNavHighlight();
